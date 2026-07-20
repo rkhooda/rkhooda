@@ -38,8 +38,7 @@
 <!-- ═══════════════ music ═══════════════ -->
 <h2>🎧 now vibing</h2>
 
-<!-- SETUP.md step 4 → replace YOUR_SPOTIFY_UID with your uid from spotify-github-profile.kittinanx.com -->
-<img src="https://spotify-github-profile.kittinanx.com/api/view?uid=YOUR_SPOTIFY_UID&cover_image=true&theme=novatorem&show_offline=true&background_color=1a1b26&interchange=true&bar_color=7aa2f7" alt="what I'm playing on Spotify right now (or the last thing I played)" width="400" />
+<img src="https://spotify-github-profile.kittinanx.com/api/view?uid=31mjuhgfdbzkwj2qshbpvifdsznq&cover_image=true&theme=novatorem&show_offline=true&background_color=1a1b26&interchange=true&bar_color=7aa2f7" alt="what I'm playing on Spotify right now (or the last thing I played)" width="400" />
 
 <br />
 <img src="assets/equalizer.svg" width="180" alt="" />
