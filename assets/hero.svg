@@ -88,25 +88,27 @@
       <rect x="130" width="5" rx="2" fill="#bb9af7"><animate attributeName="height" values="16;8;20;12;16" dur="1.8s"  begin="-1.82s" repeatCount="indefinite"/><animate attributeName="y" values="224;232;220;228;224" dur="1.8s"  begin="-1.82s" repeatCount="indefinite"/></rect>
       <rect x="138" width="5" rx="2" fill="#7dcfff"><animate attributeName="height" values="8;22;14;24;8"  dur="2.04s" begin="-2.08s" repeatCount="indefinite"/><animate attributeName="y" values="232;218;226;216;232" dur="2.04s" begin="-2.08s" repeatCount="indefinite"/></rect>
     </g>
-    <text x="162" y="234" font-family="'Cascadia Code','Fira Code',Consolas,'Courier New',monospace" font-size="13" fill="#565f89">// lofi beats to build to ♪</text>
+    <text x="162" y="237" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="20" font-weight="700" fill="#c0caf5">Music, me and code</text>
 
     <!-- ═══ right scene: desk setup ═══ -->
     <!-- floor -->
     <line x1="620" y1="302" x2="1200" y2="302" stroke="#24283b" stroke-width="2" opacity="0.7"/>
 
     <!-- desk -->
-    <rect x="664" y="232" width="508" height="20" rx="4" fill="#2a2f45"/>
-    <rect x="668" y="232" width="500" height="2.5" rx="1.25" fill="#3b4261"/>
-    <rect x="684"  y="252" width="8" height="50" fill="#242940"/>
-    <rect x="1146" y="252" width="8" height="50" fill="#242940"/>
+    <rect x="700" y="232" width="450" height="20" rx="4" fill="#2a2f45"/>
+    <rect x="704" y="232" width="442" height="2.5" rx="1.25" fill="#3b4261"/>
+    <rect x="720"  y="252" width="8" height="50" fill="#242940"/>
+    <rect x="1124" y="252" width="8" height="50" fill="#242940"/>
 
     <!-- plant -->
+    <g transform="translate(36 0)">
     <path d="M676,232 L702,232 L698,210 L680,210 Z" fill="#414868"/>
     <path d="M689,210 C689,196 682,192 676,186 C684,186 690,194 690,202 Z" fill="#9ece6a"/>
     <path d="M689,210 C689,194 696,190 703,185 C696,184 688,192 688,201 Z" fill="#73daca"/>
     <path d="M689,210 C687,198 689,188 689,180" stroke="#9ece6a" stroke-width="2.4" fill="none" stroke-linecap="round">
       <animateTransform attributeName="transform" type="rotate" values="-3 689 210;3 689 210;-3 689 210" dur="5s" repeatCount="indefinite"/>
     </path>
+    </g>
 
     <!-- screen glow behind the setup -->
     <ellipse cx="946" cy="150" rx="250" ry="105" fill="url(#screenhalo)" opacity="0.35">
@@ -114,9 +116,10 @@
     </ellipse>
 
     <!-- left monitor, landscape, angled in a touch -->
-    <rect x="766" y="210" width="10" height="18" fill="#2f3549"/>
+    <g transform="translate(28 0)">
     <rect x="746" y="226" width="50" height="6" rx="3" fill="#2f3549"/>
     <g transform="translate(828 0) skewY(-3.5) translate(-828 0)">
+      <rect x="766" y="210" width="10" height="18" fill="#2f3549"/>
       <rect x="716" y="128" width="112" height="80" rx="8" fill="#16161e" stroke="#3b4261" stroke-width="1.5"/>
       <circle cx="726" cy="138" r="2" fill="#f7768e"/>
       <circle cx="733" cy="138" r="2" fill="#e0af68"/>
@@ -133,6 +136,7 @@
       <rect x="726" y="181" height="4.5" rx="2.25" fill="#9ece6a" width="0">
         <animate attributeName="width" values="0;0;58;58;0;0" keyTimes="0;0.48;0.62;0.90;0.94;1" dur="8s" begin="-2s" repeatCount="indefinite"/>
       </rect>
+    </g>
     </g>
 
     <!-- big centre monitor -->
@@ -168,9 +172,10 @@
     </g>
 
     <!-- right monitor, vertical, angled in a touch -->
-    <rect x="1091" y="212" width="10" height="16" fill="#2f3549"/>
+    <g transform="translate(-8 0)">
     <rect x="1069" y="226" width="50" height="6" rx="3" fill="#2f3549"/>
     <g transform="translate(1064 0) skewY(4) translate(-1064 0)">
+      <rect x="1091" y="212" width="10" height="16" fill="#2f3549"/>
       <rect x="1064" y="102" width="64" height="110" rx="8" fill="#16161e" stroke="#3b4261" stroke-width="1.5"/>
       <circle cx="1074" cy="112" r="2" fill="#f7768e"/>
       <circle cx="1081" cy="112" r="2" fill="#e0af68"/>
@@ -185,8 +190,10 @@
       <rect x="1101" width="5" rx="2" fill="#7aa2f7"><animate attributeName="height" values="15;9;20;10;15" dur="2.1s" begin="-0.9s" repeatCount="indefinite"/><animate attributeName="y" values="185;191;180;190;185" dur="2.1s" begin="-0.9s" repeatCount="indefinite"/></rect>
       <rect x="1110" width="5" rx="2" fill="#bb9af7"><animate attributeName="height" values="7;18;12;16;7" dur="1.85s" begin="-1.2s" repeatCount="indefinite"/><animate attributeName="y" values="193;182;188;184;193" dur="1.85s" begin="-1.2s" repeatCount="indefinite"/></rect>
     </g>
+    </g>
 
     <!-- coffee mug + steam -->
+    <g transform="translate(-20 0)">
     <rect x="1132" y="206" width="26" height="25" rx="3.5" fill="#f7768e"/>
     <path d="M1158,212 a6.5,6.5 0 0 1 0,13" stroke="#f7768e" stroke-width="3.5" fill="none"/>
     <g stroke="#9aa5ce" stroke-width="2" fill="none" stroke-linecap="round">
@@ -203,14 +210,17 @@
         <animate attributeName="opacity" values="0;0.55;0" dur="3.4s" begin="-2.2s" repeatCount="indefinite"/>
       </path>
     </g>
+    </g>
 
     <!-- pc tower under the desk -->
+    <g transform="translate(36 0)">
     <rect x="700" y="256" width="36" height="44" rx="4" fill="#262b3d" stroke="#3b4261" stroke-width="1"/>
     <line x1="708" y1="272" x2="728" y2="272" stroke="#3b4261" stroke-width="2" stroke-linecap="round"/>
     <line x1="708" y1="278" x2="728" y2="278" stroke="#3b4261" stroke-width="2" stroke-linecap="round"/>
     <circle cx="710" cy="264" r="2" fill="#9ece6a">
       <animate attributeName="opacity" values="1;0.2;1" dur="2.2s" repeatCount="indefinite"/>
     </circle>
+    </g>
 
     <!-- keyboard on the desk edge -->
     <rect x="882" y="237" width="130" height="9" rx="4" fill="#2f3549"/>
@@ -278,9 +288,9 @@
     <circle cx="946" cy="298" r="4" fill="#2f3549"/>
     <circle cx="982" cy="298" r="4" fill="#2f3549"/>
 
-    <!-- little white cat on patrol -->
+    <!-- little white cat: strolls in, then hops onto the desk -->
     <g>
-      <g>
+      <g transform="scale(-1 1)">
         <!-- stepping legs -->
         <g fill="#eceff9">
           <rect x="-6" y="-8" width="3" height="8" rx="1.5">
@@ -313,12 +323,13 @@
           <animateTransform attributeName="transform" type="translate" values="0 0;0 -1.5;0 0" dur="0.5s" repeatCount="indefinite"/>
         </g>
       </g>
-      <animateTransform attributeName="transform" type="translate" values="1180 300;-60 300" dur="22s" repeatCount="1" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" values="-50 300;1046 300;1041 274;1038 252" keyTimes="0;0.955;0.98;1" dur="23s" repeatCount="1" fill="freeze"/>
+      <animate attributeName="opacity" begin="23s" dur="0.01s" values="1;0" fill="freeze"/>
     </g>
 
     <!-- ...then it hops up and settles on the desk, tail waving -->
     <g opacity="0" transform="translate(1038 250)">
-      <animate attributeName="opacity" values="0;1" begin="23s" dur="0.6s" fill="freeze"/>
+      <animate attributeName="opacity" values="0;1" begin="23s" dur="0.15s" fill="freeze"/>
       <path d="M8,-4 Q16,-9 14,-18" stroke="#eceff9" stroke-width="3" fill="none" stroke-linecap="round">
         <animateTransform attributeName="transform" type="rotate" values="-14 8 -4;16 8 -4;-14 8 -4" dur="2.2s" repeatCount="indefinite"/>
       </path>
