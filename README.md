@@ -57,7 +57,7 @@
 
 <h2>trophy shelf</h2>
 
-<img src="https://github-profile-trophy.vercel.app/?username=rkhooda&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" alt="GitHub trophies" />
+<img src="https://github-trophies.vercel.app/?username=rkhooda&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" alt="GitHub trophies" />
 
 <br /><br />
 
