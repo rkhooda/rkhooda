@@ -33,7 +33,7 @@
 
 <h2>in flow state</h2>
 
-<img src="https://spotify-github-profile.kittinanx.com/api/view?uid=31mjuhgfdbzkwj2qshbpvifdsznq&cover_image=true&theme=novatorem&show_offline=true&background_color=1a1b26&bar_color=7aa2f7" alt="what I'm listening to on Spotify" width="400" />
+<img src="https://spotify-recently-played-readme.vercel.app/api?user=31mjuhgfdbzkwj2qshbpvifdsznq&count=1&width=400" alt="the song I last played on Spotify" width="400" />
 
 <h2>toolbox</h2>
 
