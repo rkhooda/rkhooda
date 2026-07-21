@@ -305,6 +305,7 @@
           <rect x="24" y="-8" width="3" height="8" rx="1.5">
             <animateTransform attributeName="transform" type="translate" values="0 0;0 -2;0 0" dur="0.5s" repeatCount="indefinite"/>
           </rect>
+          <animateTransform attributeName="transform" type="translate" values="0 0;0 -3" begin="21.9s" dur="0.2s" fill="freeze" additive="sum"/>
         </g>
         <!-- body, tail, head -->
         <g>
@@ -317,19 +318,26 @@
           <path d="M0,-22 L4,-29 L6,-21 Z" fill="#eceff9"/>
           <path d="M-6.5,-22 L-5.7,-26 L-3.2,-22.6 Z" fill="#f7768e" opacity="0.55"/>
           <path d="M1.2,-22.4 L3.4,-26 L4.6,-21.8 Z" fill="#f7768e" opacity="0.55"/>
-          <path d="M-7,-16 q2,1.6 4,0" stroke="#565f89" stroke-width="1" fill="none" stroke-linecap="round"/>
+          <ellipse cx="-5.5" cy="-17" rx="1.4" ry="1.5" fill="#16161e">
+            <animate attributeName="ry" values="1.5;1.5;0.15;1.5" keyTimes="0;0.9;0.94;1" dur="3.6s" repeatCount="indefinite"/>
+          </ellipse>
           <circle cx="-9.5" cy="-14" r="1" fill="#f7768e"/>
           <path d="M-8,-9.5 Q-2,-6.5 4,-9.5" stroke="#f7768e" stroke-width="1.5" fill="none" stroke-linecap="round"/>
           <animateTransform attributeName="transform" type="translate" values="0 0;0 -1.5;0 0" dur="0.5s" repeatCount="indefinite"/>
         </g>
       </g>
-      <animateTransform attributeName="transform" type="translate" values="-50 300;1046 300;1041 274;1038 252" keyTimes="0;0.955;0.98;1" dur="23s" repeatCount="1" fill="freeze"/>
-      <animate attributeName="opacity" begin="23s" dur="0.01s" values="1;0" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" calcMode="spline"
+        values="-50 300;1046 300;1046 303;1040 220;1038 252;1038 252"
+        keyTimes="0;0.895;0.912;0.94;0.96;1"
+        keySplines="0 0 1 1;0.3 0 0.7 1;0.215 0.61 0.355 1;0.55 0.055 0.675 0.19;0 0 1 1"
+        dur="24s" repeatCount="1" fill="freeze"/>
+      <animate attributeName="opacity" begin="23.05s" dur="0.01s" values="1;0" fill="freeze"/>
     </g>
 
     <!-- ...then it hops up and settles on the desk, tail waving -->
     <g opacity="0" transform="translate(1038 250)">
-      <animate attributeName="opacity" values="0;1" begin="23s" dur="0.15s" fill="freeze"/>
+      <animate attributeName="opacity" values="0;1" begin="23.05s" dur="0.05s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" values="0 -5;0 1.5;0 0" begin="23.05s" dur="0.35s" fill="freeze" additive="sum"/>
       <path d="M8,-4 Q16,-9 14,-18" stroke="#eceff9" stroke-width="3" fill="none" stroke-linecap="round">
         <animateTransform attributeName="transform" type="rotate" values="-14 8 -4;16 8 -4;-14 8 -4" dur="2.2s" repeatCount="indefinite"/>
       </path>
@@ -342,7 +350,9 @@
         <path d="M1,-31 L5,-37 L7,-30 Z" fill="#eceff9"/>
         <path d="M-5.7,-31 L-4.9,-35 L-2.4,-31.6 Z" fill="#f7768e" opacity="0.55"/>
         <path d="M2.2,-31.4 L4.4,-35 L5.6,-30.8 Z" fill="#f7768e" opacity="0.55"/>
-        <path d="M-6,-25 q2,1.6 4,0" stroke="#565f89" stroke-width="1" fill="none" stroke-linecap="round"/>
+        <ellipse cx="-5" cy="-26" rx="1.4" ry="1.5" fill="#16161e">
+          <animate attributeName="ry" values="1.5;1.5;0.15;1.5" keyTimes="0;0.88;0.93;1" dur="4.2s" repeatCount="indefinite"/>
+        </ellipse>
         <circle cx="-8.5" cy="-23" r="1" fill="#f7768e"/>
         <path d="M-8,-18 Q-1,-15 6,-18" stroke="#f7768e" stroke-width="1.5" fill="none" stroke-linecap="round"/>
         <animateTransform attributeName="transform" type="translate" values="0 0;0 -0.8;0 0" dur="2.6s" repeatCount="indefinite"/>
