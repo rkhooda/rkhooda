@@ -33,7 +33,7 @@
 
 <h2>in flow state</h2>
 
-<img src="https://spotify-recently-played-readme.vercel.app/api?user=31mjuhgfdbzkwj2qshbpvifdsznq&count=1&width=400" alt="the song I last played on Spotify" width="400" />
+<img src="https://spotify-recently-played-readme.vercel.app/api?user=31mjuhgfdbzkwj2qshbpvifdsznq&width=400&count=1" alt="the song I last played on Spotify" width="400" />
 
 <h2>toolbox</h2>
 
