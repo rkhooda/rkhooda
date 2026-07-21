@@ -88,7 +88,7 @@
       <rect x="130" width="5" rx="2" fill="#bb9af7"><animate attributeName="height" values="16;8;20;12;16" dur="1.8s"  begin="-1.82s" repeatCount="indefinite"/><animate attributeName="y" values="224;232;220;228;224" dur="1.8s"  begin="-1.82s" repeatCount="indefinite"/></rect>
       <rect x="138" width="5" rx="2" fill="#7dcfff"><animate attributeName="height" values="8;22;14;24;8"  dur="2.04s" begin="-2.08s" repeatCount="indefinite"/><animate attributeName="y" values="232;218;226;216;232" dur="2.04s" begin="-2.08s" repeatCount="indefinite"/></rect>
     </g>
-    <text x="162" y="237" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="20" font-weight="700" fill="#c0caf5">Music, me and code</text>
+    <text x="162" y="237" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="20" font-weight="700" fill="#c0caf5">music, me and code</text>
 
     <!-- ═══ right scene: desk setup ═══ -->
     <!-- floor -->
@@ -117,7 +117,7 @@
 
     <!-- left monitor, landscape, angled in a touch -->
     <g transform="translate(28 0)">
-    <g transform="translate(828 0) skewY(-3.5) translate(-828 0)">
+    <g>
       <rect x="746" y="226" width="50" height="6" rx="3" fill="#2f3549"/>
       <rect x="766" y="210" width="10" height="18" fill="#2f3549"/>
       <rect x="716" y="128" width="112" height="80" rx="8" fill="#16161e" stroke="#3b4261" stroke-width="1.5"/>
@@ -142,38 +142,35 @@
     <!-- big centre monitor -->
     <rect x="936" y="212" width="12" height="16" fill="#2f3549"/>
     <rect x="912" y="226" width="60" height="6" rx="3" fill="#2f3549"/>
-    <rect x="860" y="96" width="172" height="116" rx="9" fill="#16161e" stroke="#3b4261" stroke-width="1.5"/>
-    <circle cx="872" cy="108" r="2.5" fill="#f7768e"/>
-    <circle cx="880" cy="108" r="2.5" fill="#e0af68"/>
-    <circle cx="888" cy="108" r="2.5" fill="#9ece6a"/>
+    <rect x="868" y="108" width="156" height="104" rx="9" fill="#16161e" stroke="#3b4261" stroke-width="1.5"/>
+    <circle cx="880" cy="120" r="2.5" fill="#f7768e"/>
+    <circle cx="888" cy="120" r="2.5" fill="#e0af68"/>
+    <circle cx="896" cy="120" r="2.5" fill="#9ece6a"/>
     <!-- code typing itself -->
     <g>
-      <rect x="873" y="120" height="5" rx="2.5" fill="#bb9af7" width="0">
-        <animate attributeName="width" values="0;0;88;88;0;0"  keyTimes="0;0.02;0.12;0.90;0.94;1" dur="9s" begin="-6.3s" repeatCount="indefinite"/>
+      <rect x="881" y="132" height="5" rx="2.5" fill="#bb9af7" width="0">
+        <animate attributeName="width" values="0;0;80;80;0;0"  keyTimes="0;0.02;0.12;0.90;0.94;1" dur="9s" begin="-6.3s" repeatCount="indefinite"/>
       </rect>
-      <rect x="885" y="132" height="5" rx="2.5" fill="#7dcfff" width="0">
-        <animate attributeName="width" values="0;0;114;114;0;0" keyTimes="0;0.14;0.26;0.90;0.94;1" dur="9s" begin="-6.3s" repeatCount="indefinite"/>
+      <rect x="893" y="144" height="5" rx="2.5" fill="#7dcfff" width="0">
+        <animate attributeName="width" values="0;0;102;102;0;0" keyTimes="0;0.14;0.26;0.90;0.94;1" dur="9s" begin="-6.3s" repeatCount="indefinite"/>
       </rect>
-      <rect x="885" y="144" height="5" rx="2.5" fill="#9ece6a" width="0">
-        <animate attributeName="width" values="0;0;68;68;0;0"  keyTimes="0;0.28;0.38;0.90;0.94;1" dur="9s" begin="-6.3s" repeatCount="indefinite"/>
+      <rect x="893" y="156" height="5" rx="2.5" fill="#9ece6a" width="0">
+        <animate attributeName="width" values="0;0;62;62;0;0"  keyTimes="0;0.28;0.38;0.90;0.94;1" dur="9s" begin="-6.3s" repeatCount="indefinite"/>
       </rect>
-      <rect x="897" y="156" height="5" rx="2.5" fill="#7aa2f7" width="0">
-        <animate attributeName="width" values="0;0;96;96;0;0"  keyTimes="0;0.40;0.52;0.90;0.94;1" dur="9s" begin="-6.3s" repeatCount="indefinite"/>
+      <rect x="905" y="168" height="5" rx="2.5" fill="#7aa2f7" width="0">
+        <animate attributeName="width" values="0;0;86;86;0;0"  keyTimes="0;0.40;0.52;0.90;0.94;1" dur="9s" begin="-6.3s" repeatCount="indefinite"/>
       </rect>
-      <rect x="885" y="168" height="5" rx="2.5" fill="#e0af68" width="0">
-        <animate attributeName="width" values="0;0;54;54;0;0"  keyTimes="0;0.54;0.63;0.90;0.94;1" dur="9s" begin="-6.3s" repeatCount="indefinite"/>
+      <rect x="893" y="180" height="5" rx="2.5" fill="#e0af68" width="0">
+        <animate attributeName="width" values="0;0;48;48;0;0"  keyTimes="0;0.54;0.63;0.90;0.94;1" dur="9s" begin="-6.3s" repeatCount="indefinite"/>
       </rect>
-      <rect x="873" y="180" height="5" rx="2.5" fill="#f7768e" width="0">
-        <animate attributeName="width" values="0;0;40;40;0;0"  keyTimes="0;0.65;0.72;0.90;0.94;1" dur="9s" begin="-6.3s" repeatCount="indefinite"/>
-      </rect>
-      <rect x="873" y="192" width="7" height="5" rx="1.5" fill="#c0caf5">
+      <rect x="881" y="192" width="7" height="5" rx="1.5" fill="#c0caf5">
         <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
       </rect>
     </g>
 
     <!-- right monitor, vertical, angled in a touch -->
     <g transform="translate(-8 0)">
-    <g transform="translate(1064 0) skewY(4) translate(-1064 0)">
+    <g>
       <rect x="1069" y="226" width="50" height="6" rx="3" fill="#2f3549"/>
       <rect x="1091" y="212" width="10" height="16" fill="#2f3549"/>
       <rect x="1064" y="102" width="64" height="110" rx="8" fill="#16161e" stroke="#3b4261" stroke-width="1.5"/>
