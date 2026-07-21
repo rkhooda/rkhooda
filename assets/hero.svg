@@ -117,8 +117,8 @@
 
     <!-- left monitor, landscape, angled in a touch -->
     <g transform="translate(28 0)">
-    <rect x="746" y="226" width="50" height="6" rx="3" fill="#2f3549"/>
     <g transform="translate(828 0) skewY(-3.5) translate(-828 0)">
+      <rect x="746" y="226" width="50" height="6" rx="3" fill="#2f3549"/>
       <rect x="766" y="210" width="10" height="18" fill="#2f3549"/>
       <rect x="716" y="128" width="112" height="80" rx="8" fill="#16161e" stroke="#3b4261" stroke-width="1.5"/>
       <circle cx="726" cy="138" r="2" fill="#f7768e"/>
@@ -173,8 +173,8 @@
 
     <!-- right monitor, vertical, angled in a touch -->
     <g transform="translate(-8 0)">
-    <rect x="1069" y="226" width="50" height="6" rx="3" fill="#2f3549"/>
     <g transform="translate(1064 0) skewY(4) translate(-1064 0)">
+      <rect x="1069" y="226" width="50" height="6" rx="3" fill="#2f3549"/>
       <rect x="1091" y="212" width="10" height="16" fill="#2f3549"/>
       <rect x="1064" y="102" width="64" height="110" rx="8" fill="#16161e" stroke="#3b4261" stroke-width="1.5"/>
       <circle cx="1074" cy="112" r="2" fill="#f7768e"/>
