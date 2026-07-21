@@ -15,7 +15,7 @@
 
 <br /><br />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=900&color=7AA2F7&center=true&vCenter=true&width=680&height=48&lines=Full-stack+developer+chasing+good+ideas+and+good+music.;JACK+OF+TOO+MANY+TRADES;TypeScript+%C2%B7+React+%C2%B7+Node+%C2%B7+Python+%C2%B7+Unity;always+building+%C2%B7+always+vibing+%F0%9F%8E%A7" alt="Full-stack developer chasing good ideas and good music. Jack of too many trades." />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=900&color=7AA2F7&center=true&vCenter=true&width=800&height=48&lines=Full-stack+developer+chasing+good+ideas+and+good+music.;JACK+OF+TOO+MANY+TRADES;TypeScript+%C2%B7+React+%C2%B7+Node+%C2%B7+Python+%C2%B7+Unity;always+building+%C2%B7+always+vibing+%F0%9F%8E%A7" alt="Full-stack developer chasing good ideas and good music. Jack of too many trades." />
 
 <p>
   <a href="https://www.linkedin.com/in/rakshit-hooda/">
