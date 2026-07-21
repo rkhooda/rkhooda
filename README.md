@@ -11,7 +11,7 @@
 
 <br /><br />
 
-<img src="https://streak-stats.demolab.com?user=rkhooda&theme=tokyonight&hide_border=true&background=1A1B26&border_radius=10" alt="GitHub streak" />
+<img src="https://streak-stats.demolab.com?user=rkhooda&theme=tokyonight&hide_border=true&background=1a1b26&border_radius=10" alt="GitHub streak" />
 
 <br /><br />
 
