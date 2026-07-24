@@ -48,7 +48,7 @@
 
 <h2>by the numbers</h2>
 
-<img src="https://github-readme-stats.vercel.app/api?username=rkhooda&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=70a5fd&icon_color=bf91f3&text_color=38bdae" alt="GitHub stats" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=rkhooda&theme=tokyonight" alt="GitHub stats" />
 <img src="https://raw.githubusercontent.com/rkhooda/rkhooda/main/profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="most used languages" />
 
 <h2>the skyline</h2>
