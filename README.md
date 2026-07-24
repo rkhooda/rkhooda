@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- hero -->
-<img src="assets/hero.svg" width="100%" alt="Rakshit Hooda — full-stack developer, jack of too many trades, coding at night with headphones on" />
+<img src="https://raw.githubusercontent.com/rkhooda/rkhooda/main/assets/hero.svg" width="100%" alt="Rakshit Hooda — full-stack developer, jack of too many trades, coding at night with headphones on" />
 
 <!-- contribution snake — regenerated daily on the `output` branch -->
 <picture>
@@ -48,12 +48,12 @@
 
 <h2>by the numbers</h2>
 
-<img src="profile-summary-card-output/tokyonight/3-stats.svg" alt="GitHub stats" />
-<img src="profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="most used languages" />
+<img src="https://raw.githubusercontent.com/rkhooda/rkhooda/main/profile-summary-card-output/tokyonight/3-stats.svg" alt="GitHub stats" />
+<img src="https://raw.githubusercontent.com/rkhooda/rkhooda/main/profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="most used languages" />
 
 <h2>the skyline</h2>
 
-<img src="profile-3d-contrib/profile-night-view.svg" width="100%" alt="my contributions as a 3D skyline" />
+<img src="https://raw.githubusercontent.com/rkhooda/rkhooda/main/profile-3d-contrib/profile-night-view.svg" width="100%" alt="my contributions as a 3D skyline" />
 
 <h2>trophy shelf</h2>
 
