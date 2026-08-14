@@ -1,12 +1,12 @@
 <div align="center">
 
 <!-- hero — repainted through the day by .github/workflows/profile.yml -->
-<img src="https://raw.githubusercontent.com/rkhooda/rkhooda/main/assets/hero-now.svg?v=mssplr7g" width="100%" alt="Rakshit Hooda — full-stack developer, jack of too many trades, coding at night with headphones on" />
+<img src="https://raw.githubusercontent.com/rkhooda/rkhooda/main/assets/hero-now.svg?v=mssq9xma" width="100%" alt="Rakshit Hooda — full-stack developer, jack of too many trades, coding at night with headphones on" />
 
 <br /><br />
 
 <!-- one of seven animations, swapped daily — all drawn from my real contribution data -->
-<img src="https://raw.githubusercontent.com/rkhooda/rkhooda/main/assets/anim/today.svg?v=mssplr7g" width="100%" alt="Today's contribution animation" />
+<img src="https://raw.githubusercontent.com/rkhooda/rkhooda/main/assets/anim/today.svg?v=mssq9xma" width="100%" alt="Today's contribution animation" />
 
 <br /><br />
 
@@ -31,7 +31,7 @@
 ## currently building
 
 <!-- building:start -->
-- **[verified-digest](https://github.com/rkhooda/verified-digest)** `Python` — docs: rename project to verified-digest · _2h ago_
+- **[verified-digest](https://github.com/rkhooda/verified-digest)** `Python` — docs: rename project to verified-digest · _3h ago_
 - **[ProcrastiNO](https://github.com/rkhooda/ProcrastiNO)** `TypeScript` — refactor(theme): rename the type export to typeScale · _2d ago_
 - **[Portfolio](https://github.com/rkhooda/Portfolio)** `JavaScript` — perf: defer the scripts and open the font cdn socket early · _3d ago_
 - **[Clixo](https://github.com/rkhooda/Clixo)** `TypeScript` — chore(deps): upgrade Next to 15.5.23 · _5d ago_
@@ -42,7 +42,7 @@
 
 <h2>last 7 days</h2>
 
-<img src="https://raw.githubusercontent.com/rkhooda/rkhooda/main/assets/wakatime.svg?v=mssplr7g" width="100%" alt="Where my last 7 days of coding went" />
+<img src="https://raw.githubusercontent.com/rkhooda/rkhooda/main/assets/wakatime.svg?v=mssq9xma" width="100%" alt="Where my last 7 days of coding went" />
 
 <h2>in flow state</h2>
 
