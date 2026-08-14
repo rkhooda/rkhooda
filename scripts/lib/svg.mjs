@@ -31,7 +31,7 @@ export const round = (n) => Math.round(n * 100) / 100;
  * outlier week (one 200-commit sprint) otherwise squashes the whole rest of the
  * year to a flat line.
  */
-export function scale(values, percentile = 0.9, gamma = 0.7) {
+export function scale(values, percentile = 0.85, gamma = 0.7) {
   const active = values.filter((v) => v > 0).sort((a, b) => a - b);
   const ref = active.length ? active[Math.min(active.length - 1, Math.floor(active.length * percentile))] : 1;
   return (v) => Math.min(1, Math.pow(Math.max(0, v) / Math.max(1, ref), gamma));

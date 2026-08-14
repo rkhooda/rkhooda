@@ -5,13 +5,17 @@ import { fetchProfile, relativeTime } from './lib/gh.mjs';
 import { readReadme, writeReadme, updateSection, bustCache } from './lib/readme.mjs';
 import { card, caption, esc, round, FONT, MUTED, DIM, FG, CYAN, BLUE, PURPLE, GREEN, YELLOW, RED, WIDTH } from './lib/svg.mjs';
 
-import waveform from './anim/waveform.mjs';
-import plane from './anim/plane.mjs';
-import ekg from './anim/ekg.mjs';
-import runner from './anim/runner.mjs';
-import tetris from './anim/tetris.mjs';
-import weather from './anim/weather.mjs';
-import terminal from './anim/terminal.mjs';
+import { board as connect4Board, FRESH } from './connect4.mjs';
+import { wall as guestbookWall } from './guestbook.mjs';
+
+// Namespace imports so each module's `id` travels with its render function.
+import * as waveform from './anim/waveform.mjs';
+import * as plane from './anim/plane.mjs';
+import * as ekg from './anim/ekg.mjs';
+import * as runner from './anim/runner.mjs';
+import * as tetris from './anim/tetris.mjs';
+import * as weather from './anim/weather.mjs';
+import * as terminal from './anim/terminal.mjs';
 
 const ROOT = new URL('../', import.meta.url).pathname;
 const LOGIN = process.env.PROFILE_USER || 'rkhooda';
@@ -146,7 +150,7 @@ const profile = await fetchProfile(LOGIN, TOKEN);
 const anim = todaysAnimation();
 
 mkdirSync(`${ROOT}assets/anim`, { recursive: true });
-writeFileSync(`${ROOT}assets/anim/today.svg`, anim(profile));
+writeFileSync(`${ROOT}assets/anim/today.svg`, anim.default(profile));
 
 const phase = writeHero();
 
@@ -159,6 +163,11 @@ if (process.env.WAKATIME_API_KEY) {
   }
 }
 writeFileSync(`${ROOT}assets/wakatime.svg`, wakaCard(waka));
+
+// Starting states, so the README never points at a file that does not exist yet.
+// Their own workflows overwrite these the moment somebody plays or signs.
+if (!existsSync(`${ROOT}assets/connect4.svg`)) writeFileSync(`${ROOT}assets/connect4.svg`, connect4Board({ ...FRESH }));
+if (!existsSync(`${ROOT}assets/guestbook.svg`)) writeFileSync(`${ROOT}assets/guestbook.svg`, guestbookWall([], [], 0));
 
 let md = readReadme();
 md = updateSection(md, 'building', buildingSection(profile));

@@ -17,7 +17,7 @@ export default function weather(p) {
   const floor = TOP + ROWS * STEP - (STEP - CELL);
 
   const weekly = p.weeks.map((w) => w.reduce((s, d) => s + d.count, 0));
-  const norm = scale(weekly, 0.9, 0.7);
+  const norm = scale(weekly);
 
   const cells = p.weeks
     .flatMap((week, c) =>

@@ -1,17 +1,12 @@
 <div align="center">
 
-<!-- hero -->
-<img src="https://raw.githubusercontent.com/rkhooda/rkhooda/main/assets/hero.svg" width="100%" alt="Rakshit Hooda — full-stack developer, jack of too many trades, coding at night with headphones on" />
-
-<!-- contribution snake — regenerated daily on the `output` branch -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rkhooda/rkhooda/output/snake-dark.svg" />
-  <img src="https://raw.githubusercontent.com/rkhooda/rkhooda/output/snake.svg" alt="snake eating my contribution graph" width="100%" />
-</picture>
+<!-- hero — repainted through the day by .github/workflows/profile.yml -->
+<img src="https://raw.githubusercontent.com/rkhooda/rkhooda/main/assets/hero-now.svg?v=msspf2lr" width="100%" alt="Rakshit Hooda — full-stack developer, jack of too many trades, coding at night with headphones on" />
 
 <br /><br />
 
-<img src="https://streak-stats.demolab.com?user=rkhooda&theme=tokyonight&hide_border=true&background=1a1b26&border_radius=10" alt="GitHub streak" />
+<!-- one of seven animations, swapped daily — all drawn from my real contribution data -->
+<img src="https://raw.githubusercontent.com/rkhooda/rkhooda/main/assets/anim/today.svg?v=msspf2lr" width="100%" alt="Today's contribution animation" />
 
 <br /><br />
 
@@ -31,6 +26,24 @@
   -->
 </p>
 
+</div>
+
+## currently building
+
+<!-- building:start -->
+- **[verified-digest](https://github.com/rkhooda/verified-digest)** `Python` — docs: rename project to verified-digest · _2h ago_
+- **[rkhooda](https://github.com/rkhooda/rkhooda)** — Generate profile summary cards · _3h ago_
+- **[ProcrastiNO](https://github.com/rkhooda/ProcrastiNO)** `TypeScript` — refactor(theme): rename the type export to typeScale · _2d ago_
+- **[Portfolio](https://github.com/rkhooda/Portfolio)** `JavaScript` — perf: defer the scripts and open the font cdn socket early · _3d ago_
+- **[Clixo](https://github.com/rkhooda/Clixo)** `TypeScript` — chore(deps): upgrade Next to 15.5.23 · _5d ago_
+<!-- building:end -->
+
+<div align="center">
+
+<h2>last 7 days</h2>
+
+<img src="https://raw.githubusercontent.com/rkhooda/rkhooda/main/assets/wakatime.svg?v=msspf2lr" width="100%" alt="Where my last 7 days of coding went" />
+
 <h2>in flow state</h2>
 
 <img src="https://spotify-recently-played-readme.vercel.app/api?user=31mjuhgfdbzkwj2qshbpvifdsznq&width=400&count=1" alt="the song I last played on Spotify" width="400" />
@@ -46,18 +59,29 @@
   <img src="https://img.shields.io/badge/OpenAI-1a1b26?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI" />
 </p>
 
-<h2>by the numbers</h2>
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=rkhooda&theme=tokyonight" alt="GitHub stats" />
-<img src="https://raw.githubusercontent.com/rkhooda/rkhooda/main/profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="most used languages" />
-
 <h2>the skyline</h2>
 
 <img src="https://raw.githubusercontent.com/rkhooda/rkhooda/main/profile-3d-contrib/profile-night-view.svg" width="100%" alt="my contributions as a 3D skyline" />
 
-<h2>trophy shelf</h2>
+<h2>play me</h2>
 
-<img src="https://github-trophies.vercel.app/?username=rkhooda&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" alt="GitHub trophies" />
+<img src="https://raw.githubusercontent.com/rkhooda/rkhooda/main/assets/connect4.svg?v=1" width="420" alt="Connect 4 against my bot — comment a column number to play" />
+
+<p>drop a disc by commenting a number from 1 to 7 — the bot answers in seconds</p>
+
+<!-- connect4-link:start -->
+<a href="https://github.com/rkhooda/rkhooda/issues?q=is%3Aissue+is%3Aopen+label%3Aconnect4"><img src="https://img.shields.io/badge/make_your_move-bb9af7?style=for-the-badge&logo=github&logoColor=white&labelColor=1a1b26" alt="Play me at Connect 4" /></a>
+<!-- connect4-link:end -->
+
+<h2>guestbook</h2>
+
+<img src="https://raw.githubusercontent.com/rkhooda/rkhooda/main/assets/guestbook.svg?v=1" width="100%" alt="Everyone who signed my guestbook" />
+
+<p>leave a comment and your avatar joins the wall — nothing you type is shown</p>
+
+<!-- guestbook-link:start -->
+<a href="https://github.com/rkhooda/rkhooda/issues?q=is%3Aissue+is%3Aopen+label%3Aguestbook"><img src="https://img.shields.io/badge/sign_the_guestbook-7aa2f7?style=for-the-badge&logo=github&logoColor=white&labelColor=1a1b26" alt="Sign the guestbook" /></a>
+<!-- guestbook-link:end -->
 
 <br /><br />
 

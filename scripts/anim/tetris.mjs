@@ -15,7 +15,7 @@ const PIECES = [CYAN, PURPLE, BLUE, GREEN, YELLOW, RED, '#ff9e64'];
 
 export default function tetris(p) {
   const weekly = p.weeks.map((w) => w.reduce((s, d) => s + d.count, 0));
-  const norm = scale(weekly, 0.9, 0.7);
+  const norm = scale(weekly);
   const peak = Math.max(1, ...weekly);
   const cols = weekly.length;
   const gridW = cols * COL - (COL - CELL);

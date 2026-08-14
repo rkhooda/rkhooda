@@ -1,0 +1,48 @@
+name: refresh profile
+
+on:
+  schedule:
+    - cron: "0 */3 * * *" # rotates the animation at midnight, repaints the hero through the day
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - ".github/workflows/profile.yml"
+
+permissions:
+  contents: write
+
+# Shared with the guestbook and connect4 workflows so their commits queue
+# instead of racing each other to push.
+concurrency:
+  group: profile-commit
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - run: node scripts/test.mjs
+
+      - run: node scripts/build.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A assets README.md
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: refresh profile"
+            git pull --rebase --autostash
+            git push
+          fi

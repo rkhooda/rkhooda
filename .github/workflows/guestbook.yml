@@ -1,0 +1,45 @@
+name: guestbook
+
+on:
+  issue_comment:
+    types: [created, edited, deleted]
+  issues:
+    types: [labeled, unlabeled]
+  workflow_dispatch:
+  schedule:
+    - cron: "30 4 * * *" # catches anything a missed webhook dropped
+
+permissions:
+  contents: write
+  issues: read
+
+concurrency:
+  group: profile-commit
+  cancel-in-progress: false
+
+jobs:
+  wall:
+    # Only the guestbook issue redraws the wall — every other comment in the repo is ignored.
+    if: github.event_name != 'issue_comment' || contains(github.event.issue.labels.*.name, 'guestbook')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - run: node scripts/guestbook.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A assets README.md
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: update guestbook"
+            git pull --rebase --autostash
+            git push
+          fi

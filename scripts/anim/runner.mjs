@@ -17,7 +17,7 @@ export default function runner(p) {
     const w = weekly.slice(Math.max(0, i - 1), i + 2);
     return w.reduce((s, v) => s + v, 0) / w.length;
   });
-  const norm = scale(smooth, 0.9, 0.7);
+  const norm = scale(smooth);
 
   const pts = smooth.map((v, i) => ({
     x: round(X0 + (i * (X1 - X0)) / (smooth.length - 1)),
