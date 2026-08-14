@@ -70,7 +70,7 @@
 <p>drop a disc by commenting a number from 1 to 7 — the bot answers in seconds</p>
 
 <!-- connect4-link:start -->
-<a href="https://github.com/rkhooda/rkhooda/issues?q=is%3Aissue+is%3Aopen+label%3Aconnect4"><img src="https://img.shields.io/badge/make_your_move-bb9af7?style=for-the-badge&logo=github&logoColor=white&labelColor=1a1b26" alt="Play me at Connect 4" /></a>
+<a href="https://github.com/rkhooda/rkhooda/issues/2"><img src="https://img.shields.io/badge/make_your_move-bb9af7?style=for-the-badge&logo=github&logoColor=white&labelColor=1a1b26" alt="Play me at Connect 4" /></a>
 <!-- connect4-link:end -->
 
 <h2>guestbook</h2>
@@ -80,7 +80,7 @@
 <p>leave a comment and your avatar joins the wall — nothing you type is shown</p>
 
 <!-- guestbook-link:start -->
-<a href="https://github.com/rkhooda/rkhooda/issues?q=is%3Aissue+is%3Aopen+label%3Aguestbook"><img src="https://img.shields.io/badge/sign_the_guestbook-7aa2f7?style=for-the-badge&logo=github&logoColor=white&labelColor=1a1b26" alt="Sign the guestbook" /></a>
+<a href="https://github.com/rkhooda/rkhooda/issues/1"><img src="https://img.shields.io/badge/sign_the_guestbook-7aa2f7?style=for-the-badge&logo=github&logoColor=white&labelColor=1a1b26" alt="Sign the guestbook" /></a>
 <!-- guestbook-link:end -->
 
 <br /><br />
