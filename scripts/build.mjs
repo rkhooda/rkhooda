@@ -79,7 +79,8 @@ function writeHero() {
 
 function buildingSection(profile) {
   const rows = profile.repos
-    .filter((r) => r.lastCommit)
+    // The profile repo itself only ever shows this workflow's own bot commits.
+    .filter((r) => r.lastCommit && r.name !== profile.login)
     .slice(0, 5)
     .map((r) => {
       const lang = r.language ? ` \`${r.language}\`` : '';
