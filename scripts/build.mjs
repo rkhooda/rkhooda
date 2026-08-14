@@ -5,7 +5,6 @@ import { fetchProfile, relativeTime } from './lib/gh.mjs';
 import { readReadme, writeReadme, updateSection, bustCache } from './lib/readme.mjs';
 import { card, caption, esc, round, FONT, MUTED, DIM, FG, CYAN, BLUE, PURPLE, GREEN, YELLOW, RED, WIDTH } from './lib/svg.mjs';
 
-import { board as connect4Board, FRESH } from './connect4.mjs';
 import { wall as guestbookWall } from './guestbook.mjs';
 
 // Namespace imports so each module's `id` travels with its render function.
@@ -165,9 +164,8 @@ if (process.env.WAKATIME_API_KEY) {
 }
 writeFileSync(`${ROOT}assets/wakatime.svg`, wakaCard(waka));
 
-// Starting states, so the README never points at a file that does not exist yet.
-// Their own workflows overwrite these the moment somebody plays or signs.
-if (!existsSync(`${ROOT}assets/connect4.svg`)) writeFileSync(`${ROOT}assets/connect4.svg`, connect4Board({ ...FRESH }));
+// Starting state, so the README never points at a file that does not exist yet.
+// The guestbook workflow overwrites this the moment somebody signs.
 if (!existsSync(`${ROOT}assets/guestbook.svg`)) writeFileSync(`${ROOT}assets/guestbook.svg`, guestbookWall([], [], 0));
 
 let md = readReadme();

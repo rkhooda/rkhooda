@@ -1,12 +1,13 @@
 <div align="center">
 
 <!-- hero — repainted through the day by .github/workflows/profile.yml -->
-<img src="https://raw.githubusercontent.com/rkhooda/rkhooda/main/assets/hero-now.svg?v=mssq9xma" width="100%" alt="Rakshit Hooda — full-stack developer, jack of too many trades, coding at night with headphones on" />
+<img src="https://raw.githubusercontent.com/rkhooda/rkhooda/main/assets/hero-now.svg?v=mssqhp37" width="100%" alt="Rakshit Hooda — full-stack developer, jack of too many trades, coding at night with headphones on" />
 
 <br /><br />
 
-<!-- one of seven animations, swapped daily — all drawn from my real contribution data -->
-<img src="https://raw.githubusercontent.com/rkhooda/rkhooda/main/assets/anim/today.svg?v=mssq9xma" width="100%" alt="Today's contribution animation" />
+<!-- drawn from my real contribution data. Pinned via the ANIM repository
+     variable; clear that variable and it rotates through all seven daily. -->
+<img src="https://raw.githubusercontent.com/rkhooda/rkhooda/main/assets/anim/today.svg?v=mssqhp37" width="100%" alt="Today's contribution animation" />
 
 <br /><br />
 
@@ -42,7 +43,7 @@
 
 <h2>last 7 days</h2>
 
-<img src="https://raw.githubusercontent.com/rkhooda/rkhooda/main/assets/wakatime.svg?v=mssq9xma" width="100%" alt="Where my last 7 days of coding went" />
+<img src="https://raw.githubusercontent.com/rkhooda/rkhooda/main/assets/wakatime.svg?v=mssqhp37" width="100%" alt="Where my last 7 days of coding went" />
 
 <h2>in flow state</h2>
 
@@ -62,16 +63,6 @@
 <h2>the skyline</h2>
 
 <img src="https://raw.githubusercontent.com/rkhooda/rkhooda/main/profile-3d-contrib/profile-night-view.svg" width="100%" alt="my contributions as a 3D skyline" />
-
-<h2>play me</h2>
-
-<img src="https://raw.githubusercontent.com/rkhooda/rkhooda/main/assets/connect4.svg?v=1" width="420" alt="Connect 4 against my bot — comment a column number to play" />
-
-<p>drop a disc by commenting a number from 1 to 7 — the bot answers in seconds</p>
-
-<!-- connect4-link:start -->
-<a href="https://github.com/rkhooda/rkhooda/issues/2"><img src="https://img.shields.io/badge/make_your_move-bb9af7?style=for-the-badge&logo=github&logoColor=white&labelColor=1a1b26" alt="Play me at Connect 4" /></a>
-<!-- connect4-link:end -->
 
 <h2>guestbook</h2>
 

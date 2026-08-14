@@ -35,6 +35,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          # Repository variable. Set it to pin one animation (e.g. `plane`);
+          # leave it unset and the animation rotates with the day of the year.
+          ANIM: ${{ vars.ANIM }}
 
       - name: Commit
         run: |

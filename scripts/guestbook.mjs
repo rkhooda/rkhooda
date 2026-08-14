@@ -15,6 +15,7 @@ const SIZE = 46;
 const GAP = 14;
 const PER_ROW = 19;
 const CAP = PER_ROW * 3;
+const POP = 2.6; // seconds for the whole wall to finish popping in
 const RING = [CYAN, PURPLE, BLUE, GREEN, YELLOW, RED];
 
 async function guestbookIssue() {
@@ -75,17 +76,21 @@ export function wall(people, images, total) {
     .map((person, i) => {
       const cx = round(x0 + (i % PER_ROW) * (SIZE + GAP) + SIZE / 2);
       const cy = round(74 + Math.floor(i / PER_ROW) * (SIZE + GAP) + SIZE / 2);
-      const begin = round(i * 0.035);
       const ring = RING[i % RING.length];
+      // Every avatar's animation starts at 0s with its stagger encoded in keyTimes,
+      // so the resting state stays visible: a renderer that ignores SMIL shows the
+      // full wall rather than an empty card.
+      const d = Math.min(0.72, (i * 0.035) / POP);
+      const [d2, d3] = [round(d + 0.05), round(d + 0.11)];
       const inner = images[i]
         ? `<image x="${-SIZE / 2}" y="${-SIZE / 2}" width="${SIZE}" height="${SIZE}" clip-path="url(#face)" href="${images[i]}" preserveAspectRatio="xMidYMid slice"/>`
         : `<circle r="${SIZE / 2}" fill="${ring}" fill-opacity="0.25"/>
            <text y="6" text-anchor="middle" font-family="${FONT}" font-size="18" font-weight="700" fill="${ring}">${esc(person.login[0].toUpperCase())}</text>`;
 
       return `<g transform="translate(${cx} ${cy})">
-    <g opacity="0">
-      <animateTransform attributeName="transform" type="scale" values="0.3;1.1;1" keyTimes="0;0.72;1" dur="0.5s" begin="${begin}s" fill="freeze" repeatCount="1"/>
-      <animate attributeName="opacity" values="0;1" dur="0.35s" begin="${begin}s" fill="freeze" repeatCount="1"/>
+    <g opacity="1">
+      <animateTransform attributeName="transform" type="scale" values="0.3;0.3;1.12;1;1" keyTimes="0;${d};${d2};${d3};1" dur="${POP}s" begin="0s" fill="freeze" repeatCount="1"/>
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;${d};${d2};1" dur="${POP}s" begin="0s" fill="freeze" repeatCount="1"/>
       ${inner}
       <circle r="${SIZE / 2}" fill="none" stroke="${ring}" stroke-opacity="0.7" stroke-width="2"/>
       <title>${esc(person.login)}</title>

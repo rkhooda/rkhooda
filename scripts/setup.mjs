@@ -39,7 +39,6 @@ async function ensureIssue(label, title, body) {
 }
 
 await ensureLabel('guestbook', '7aa2f7', 'Comment here and your avatar joins the wall');
-await ensureLabel('connect4', 'bb9af7', 'The live Connect 4 game');
 
 const guestbook = await ensureIssue(
   'guestbook',
@@ -54,31 +53,12 @@ const guestbook = await ensureIssue(
   ].join('\n')
 );
 
-const connect4 = await ensureIssue(
-  'connect4',
-  'Play me at Connect 4',
-  [
-    'Comment a number from **1 to 7** to drop a disc in that column. The bot answers straight away and the board on my profile redraws.',
-    '',
-    '- 🔴 you · 🟡 the bot',
-    '- Games reset automatically once somebody wins.',
-    '- The running score lives on my profile.',
-    '',
-    '_First comment starts the game._',
-  ].join('\n')
-);
-
 let md = readReadme();
 md = updateSection(
   md,
   'guestbook-link',
   `<a href="${guestbook.html_url}"><img src="https://img.shields.io/badge/sign_the_guestbook-7aa2f7?style=for-the-badge&logo=github&logoColor=white&labelColor=1a1b26" alt="Sign the guestbook" /></a>`
 );
-md = updateSection(
-  md,
-  'connect4-link',
-  `<a href="${connect4.html_url}"><img src="https://img.shields.io/badge/make_your_move-bb9af7?style=for-the-badge&logo=github&logoColor=white&labelColor=1a1b26" alt="Play me at Connect 4" /></a>`
-);
 writeReadme(md);
 
-console.log(`\nguestbook → ${guestbook.html_url}\nconnect 4 → ${connect4.html_url}`);
+console.log(`\nguestbook → ${guestbook.html_url}`);
