@@ -4,7 +4,7 @@ import { card, esc, round, FONT, DIM, BLUE, PURPLE, YELLOW, WIDTH } from '../lib
 
 export const id = 'streak';
 
-const H = 240;
+const H = 244;
 const RING = 60;
 const RING_Y = 118;
 
@@ -24,7 +24,7 @@ function panel(x, label, value, unit, sub, colour) {
   <text x="${x}" y="44" text-anchor="middle" font-family="${FONT}" font-size="13" font-weight="700" fill="${LABEL}" letter-spacing="2.2">${esc(label)}</text>
   <text x="${x}" y="126" text-anchor="middle" font-family="${FONT}" font-size="50" font-weight="800" fill="${colour}">${esc(value)}</text>
   <text x="${x}" y="152" text-anchor="middle" font-family="${FONT}" font-size="13" font-weight="700" fill="${UNIT}" letter-spacing="1.8">${esc(unit)}</text>
-  <text x="${x}" y="188" text-anchor="middle" font-family="${FONT}" font-size="13" font-weight="600" fill="${SUB}">${esc(sub)}</text>`;
+  <text x="${x}" y="202" text-anchor="middle" font-family="${FONT}" font-size="13" font-weight="600" fill="${SUB}">${esc(sub)}</text>`;
 }
 
 export default function streak(p) {
