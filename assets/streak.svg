@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 200" width="1200" height="200" role="img" aria-label="2109 contributions this year, a 156-day current streak and a 156-day longest streak">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 240" width="1200" height="240" role="img" aria-label="2109 contributions this year, a 156-day current streak and a 156-day longest streak">
   <title>156-day current streak, 156-day longest</title>
   <defs>
     <filter id="sglow" x="-70%" y="-70%" width="240%" height="240%">
@@ -10,31 +10,31 @@
       <stop offset="1" stop-color="#ff7a5c"/>
     </linearGradient></defs>
   <style></style>
-  <rect width="1200" height="200" rx="14" fill="#1a1b26"/>
+  <rect width="1200" height="240" rx="14" fill="#1a1b26"/>
   
   
-  <g transform="translate(600 98)">
-    <circle r="54" fill="none" stroke="#414868" stroke-opacity="0.35" stroke-width="6"/>
-    <circle r="54" fill="none" stroke="url(#flame)" stroke-width="6" stroke-linecap="round"
-            stroke-dasharray="339.29" transform="rotate(-90)" filter="url(#sglow)">
+  <g transform="translate(600 118)">
+    <circle r="60" fill="none" stroke="#414868" stroke-opacity="0.35" stroke-width="6"/>
+    <circle r="60" fill="none" stroke="url(#flame)" stroke-width="6" stroke-linecap="round"
+            stroke-dasharray="376.99" transform="rotate(-90)" filter="url(#sglow)">
       <animate attributeName="stroke-opacity" values="0.75;1;0.75" dur="2.6s" repeatCount="indefinite"/>
     </circle>
   </g>
-  <line x1="400" y1="38" x2="400" y2="172" stroke="#414868" stroke-opacity="0.3" stroke-width="1"/>
-  <line x1="800" y1="38" x2="800" y2="172" stroke="#414868" stroke-opacity="0.3" stroke-width="1"/>
+  <line x1="400" y1="36" x2="400" y2="212" stroke="#414868" stroke-opacity="0.3" stroke-width="1"/>
+  <line x1="800" y1="36" x2="800" y2="212" stroke="#414868" stroke-opacity="0.3" stroke-width="1"/>
   
-  <text x="200" y="42" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12" font-weight="700" fill="#565f89" letter-spacing="2">TOTAL CONTRIBUTIONS</text>
-  <text x="200" y="104" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="42" font-weight="800" fill="#7aa2f7">2,109</text>
-  <text x="200" y="128" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12" font-weight="700" fill="#c0caf5" letter-spacing="1.5">THIS YEAR</text>
-  <text x="200" y="160" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12" font-weight="600" fill="#565f89">Aug 10 — Aug 14</text>
+  <text x="200" y="44" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="13" font-weight="700" fill="#8f99c0" letter-spacing="2.2">TOTAL CONTRIBUTIONS</text>
+  <text x="200" y="126" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="50" font-weight="800" fill="#7aa2f7">2,109</text>
+  <text x="200" y="152" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="13" font-weight="700" fill="#d6dcf5" letter-spacing="1.8">THIS YEAR</text>
+  <text x="200" y="188" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="13" font-weight="600" fill="#7f89b0">Aug 10 — Aug 14</text>
   
-  <text x="600" y="42" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12" font-weight="700" fill="#565f89" letter-spacing="2">CURRENT STREAK</text>
-  <text x="600" y="104" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="42" font-weight="800" fill="#e0af68">156</text>
-  <text x="600" y="128" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12" font-weight="700" fill="#c0caf5" letter-spacing="1.5">DAYS</text>
-  <text x="600" y="160" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12" font-weight="600" fill="#565f89">Mar 12 — Aug 14</text>
+  <text x="600" y="44" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="13" font-weight="700" fill="#8f99c0" letter-spacing="2.2">CURRENT STREAK</text>
+  <text x="600" y="126" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="50" font-weight="800" fill="#e0af68">156</text>
+  <text x="600" y="152" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="13" font-weight="700" fill="#d6dcf5" letter-spacing="1.8">DAYS</text>
+  <text x="600" y="188" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="13" font-weight="600" fill="#7f89b0">Mar 12 — Aug 14</text>
   
-  <text x="1000" y="42" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12" font-weight="700" fill="#565f89" letter-spacing="2">LONGEST STREAK</text>
-  <text x="1000" y="104" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="42" font-weight="800" fill="#bb9af7">156</text>
-  <text x="1000" y="128" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12" font-weight="700" fill="#c0caf5" letter-spacing="1.5">DAYS</text>
-  <text x="1000" y="160" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12" font-weight="600" fill="#565f89">Mar 12 — Aug 14</text>
+  <text x="1000" y="44" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="13" font-weight="700" fill="#8f99c0" letter-spacing="2.2">LONGEST STREAK</text>
+  <text x="1000" y="126" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="50" font-weight="800" fill="#bb9af7">156</text>
+  <text x="1000" y="152" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="13" font-weight="700" fill="#d6dcf5" letter-spacing="1.8">DAYS</text>
+  <text x="1000" y="188" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="13" font-weight="600" fill="#7f89b0">Mar 12 — Aug 14</text>
 </svg>

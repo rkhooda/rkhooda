@@ -3,14 +3,17 @@ import { card, caption, round, FONT, MUTED, DIM, CYAN, RED, YELLOW, LEVELS, WIDT
 
 export const id = 'plane';
 
-const H = 250;
+const H = 270;
 const STEP = 20;
 const CELL = 16;
 const ROWS = 7;
-const GRID_Y = 44;
+// The jet is drawn around its own origin and is ~28px tall, so it needs real
+// headroom above the grid or its top half falls outside the canvas.
+const PLANE_Y = 46;
+const GRID_Y = 68;
 // The debris floor sits below the grid so that even a fully-active week — where
 // the pile would otherwise equal the original column — visibly collapses.
-const DROP = 32;
+const DROP = 28;
 const CYCLE = 15;
 
 // Flight: plane is at x = -70 at FLY_IN and x = 1290 at FLY_OUT (fractions of CYCLE).
@@ -69,7 +72,8 @@ ${keyframes.join('\n')}`;
 
   const defs = `
     <linearGradient id="beam" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="${CYAN}" stop-opacity="0.9"/>
+      <stop offset="0" stop-color="${CYAN}" stop-opacity="0.38"/>
+      <stop offset="0.55" stop-color="${CYAN}" stop-opacity="0.12"/>
       <stop offset="1" stop-color="${CYAN}" stop-opacity="0"/>
     </linearGradient>
     <filter id="pglow" x="-60%" y="-60%" width="220%" height="220%">
@@ -81,9 +85,9 @@ ${keyframes.join('\n')}`;
   <g>${cells.join('')}</g>
   <line x1="${x0 - 6}" y1="${floor + 5}" x2="${round(x0 + gridW + 6)}" y2="${floor + 5}" stroke="${DIM}" stroke-width="2" stroke-linecap="round"/>
   <g class="plane">
-    <rect x="-1.5" y="18" width="3" height="${floor - 18}" fill="url(#beam)"/>
-    <ellipse cx="0" cy="${floor - 6}" rx="16" ry="7" fill="${YELLOW}" opacity="0.35" filter="url(#pglow)"/>
-    <g filter="url(#pglow)">
+    <rect x="-1" y="${PLANE_Y + 16}" width="2" height="${floor - PLANE_Y - 16}" fill="url(#beam)"/>
+    <ellipse cx="0" cy="${floor - 6}" rx="14" ry="6" fill="${YELLOW}" opacity="0.22" filter="url(#pglow)"/>
+    <g transform="translate(0 ${PLANE_Y})" filter="url(#pglow)">
       <path d="M22,0 L-8,-9 L-2,0 L-8,9 Z" fill="${CYAN}"/>
       <path d="M-4,-3 L-20,-14 L-14,-2 Z" fill="#4d7fc4"/>
       <path d="M-4,3 L-20,14 L-14,2 Z" fill="#4d7fc4"/>

@@ -1,11 +1,18 @@
 // Total contributions, current streak and longest streak — built from the same
 // API data as everything else, so it does not depend on a third-party service.
-import { card, esc, round, FONT, MUTED, DIM, FG, CYAN, BLUE, PURPLE, YELLOW, WIDTH } from '../lib/svg.mjs';
+import { card, esc, round, FONT, DIM, BLUE, PURPLE, YELLOW, WIDTH } from '../lib/svg.mjs';
 
 export const id = 'streak';
 
-const H = 200;
-const RING = 54;
+const H = 240;
+const RING = 60;
+const RING_Y = 118;
+
+// Deliberately brighter than the shared MUTED token: on a full-width card these
+// are the only labels, and MUTED reads as unlit at this size.
+const LABEL = '#8f99c0';
+const SUB = '#7f89b0';
+const UNIT = '#d6dcf5';
 
 const day = (iso) =>
   new Date(`${iso}T00:00:00Z`).toLocaleDateString('en-US', { month: 'short', day: 'numeric', timeZone: 'UTC' });
@@ -14,10 +21,10 @@ const span = (range) => (range ? `${day(range.from)} — ${day(range.to)}` : 'no
 
 function panel(x, label, value, unit, sub, colour) {
   return `
-  <text x="${x}" y="42" text-anchor="middle" font-family="${FONT}" font-size="12" font-weight="700" fill="${MUTED}" letter-spacing="2">${esc(label)}</text>
-  <text x="${x}" y="104" text-anchor="middle" font-family="${FONT}" font-size="42" font-weight="800" fill="${colour}">${esc(value)}</text>
-  <text x="${x}" y="128" text-anchor="middle" font-family="${FONT}" font-size="12" font-weight="700" fill="${FG}" letter-spacing="1.5">${esc(unit)}</text>
-  <text x="${x}" y="160" text-anchor="middle" font-family="${FONT}" font-size="12" font-weight="600" fill="${MUTED}">${esc(sub)}</text>`;
+  <text x="${x}" y="44" text-anchor="middle" font-family="${FONT}" font-size="13" font-weight="700" fill="${LABEL}" letter-spacing="2.2">${esc(label)}</text>
+  <text x="${x}" y="126" text-anchor="middle" font-family="${FONT}" font-size="50" font-weight="800" fill="${colour}">${esc(value)}</text>
+  <text x="${x}" y="152" text-anchor="middle" font-family="${FONT}" font-size="13" font-weight="700" fill="${UNIT}" letter-spacing="1.8">${esc(unit)}</text>
+  <text x="${x}" y="188" text-anchor="middle" font-family="${FONT}" font-size="13" font-weight="600" fill="${SUB}">${esc(sub)}</text>`;
 }
 
 export default function streak(p) {
@@ -36,7 +43,7 @@ export default function streak(p) {
 
   // The ring rests fully drawn; only the glow pulses, so a still frame still reads.
   const ring = `
-  <g transform="translate(${mid} 98)">
+  <g transform="translate(${mid} ${RING_Y})">
     <circle r="${RING}" fill="none" stroke="${DIM}" stroke-opacity="0.35" stroke-width="6"/>
     <circle r="${RING}" fill="none" stroke="url(#flame)" stroke-width="6" stroke-linecap="round"
             stroke-dasharray="${round(2 * Math.PI * RING)}" transform="rotate(-90)" filter="url(#sglow)">
@@ -45,7 +52,7 @@ export default function streak(p) {
   </g>`;
 
   const divider = (x) =>
-    `<line x1="${x}" y1="38" x2="${x}" y2="${H - 28}" stroke="${DIM}" stroke-opacity="0.3" stroke-width="1"/>`;
+    `<line x1="${x}" y1="36" x2="${x}" y2="${H - 28}" stroke="${DIM}" stroke-opacity="0.3" stroke-width="1"/>`;
 
   const body = `
   ${ring}
