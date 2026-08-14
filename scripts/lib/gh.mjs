@@ -70,18 +70,35 @@ function levelsFor(counts) {
 
 function streaks(days) {
   let longest = 0;
+  let longestEnd = -1;
   let run = 0;
+  for (let i = 0; i < days.length; i++) {
+    run = days[i].count > 0 ? run + 1 : 0;
+    if (run > longest) {
+      longest = run;
+      longestEnd = i;
+    }
+  }
+
+  // Walk back from today. Today itself may simply not have landed yet, so one
+  // trailing empty day is skipped — two in a row means the streak is over.
+  let end = days.length - 1;
+  if (end >= 0 && days[end].count === 0) end--;
   let current = 0;
-  for (const d of days) {
-    run = d.count > 0 ? run + 1 : 0;
-    longest = Math.max(longest, run);
+  let start = end;
+  while (start >= 0 && days[start].count > 0) {
+    start--;
+    current++;
   }
-  // Current streak walks back from today; an empty *today* does not break it yet.
-  for (let i = days.length - 1; i >= 0; i--) {
-    if (days[i].count > 0) current++;
-    else if (i < days.length - 1) break;
-  }
-  return { longest, current };
+
+  const range = (from, to) => (from < 0 || to < 0 ? null : { from: days[from].date, to: days[to].date });
+
+  return {
+    longest,
+    current,
+    longestRange: range(longestEnd - longest + 1, longestEnd),
+    currentRange: current ? range(start + 1, end) : null,
+  };
 }
 
 export async function fetchProfile(login, token) {

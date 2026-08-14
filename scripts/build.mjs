@@ -6,6 +6,7 @@ import { readReadme, writeReadme, updateSection, bustCache } from './lib/readme.
 import { card, caption, esc, round, FONT, MUTED, DIM, FG, CYAN, BLUE, PURPLE, GREEN, YELLOW, RED, WIDTH } from './lib/svg.mjs';
 
 import { wall as guestbookWall } from './guestbook.mjs';
+import streakCard from './cards/streak.mjs';
 
 // Namespace imports so each module's `id` travels with its render function.
 import * as waveform from './anim/waveform.mjs';
@@ -163,6 +164,7 @@ if (process.env.WAKATIME_API_KEY) {
   }
 }
 writeFileSync(`${ROOT}assets/wakatime.svg`, wakaCard(waka));
+writeFileSync(`${ROOT}assets/streak.svg`, streakCard(profile));
 
 // Starting state, so the README never points at a file that does not exist yet.
 // The guestbook workflow overwrites this the moment somebody signs.
@@ -170,7 +172,7 @@ if (!existsSync(`${ROOT}assets/guestbook.svg`)) writeFileSync(`${ROOT}assets/gue
 
 let md = readReadme();
 md = updateSection(md, 'building', buildingSection(profile));
-md = bustCache(md, ['assets/anim/today.svg', 'assets/hero-now.svg', 'assets/wakatime.svg']);
+md = bustCache(md, ['assets/anim/today.svg', 'assets/hero-now.svg', 'assets/wakatime.svg', 'assets/streak.svg']);
 writeReadme(md);
 
 console.log(
