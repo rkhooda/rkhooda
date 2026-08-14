@@ -1,13 +1,13 @@
 <div align="center">
 
 <!-- hero — repainted through the day by .github/workflows/profile.yml -->
-<img src="https://raw.githubusercontent.com/rkhooda/rkhooda/main/assets/hero-now.svg?v=mssqj6cg" width="100%" alt="Rakshit Hooda — full-stack developer, jack of too many trades, coding at night with headphones on" />
+<img src="https://raw.githubusercontent.com/rkhooda/rkhooda/main/assets/hero-now.svg?v=mssrq3xm" width="100%" alt="Rakshit Hooda — full-stack developer, jack of too many trades, coding at night with headphones on" />
 
 <br /><br />
 
 <!-- drawn from my real contribution data. Pinned via the ANIM repository
      variable; clear that variable and it rotates through all seven daily. -->
-<img src="https://raw.githubusercontent.com/rkhooda/rkhooda/main/assets/anim/today.svg?v=mssqj6cg" width="100%" alt="Today's contribution animation" />
+<img src="https://raw.githubusercontent.com/rkhooda/rkhooda/main/assets/anim/today.svg?v=mssrq3xm" width="100%" alt="Today's contribution animation" />
 
 <br /><br />
 
@@ -43,7 +43,7 @@
 
 <h2>last 7 days</h2>
 
-<img src="https://raw.githubusercontent.com/rkhooda/rkhooda/main/assets/wakatime.svg?v=mssqj6cg" width="100%" alt="Where my last 7 days of coding went" />
+<img src="https://raw.githubusercontent.com/rkhooda/rkhooda/main/assets/wakatime.svg?v=mssrq3xm" width="100%" alt="Where my last 7 days of coding went" />
 
 <h2>in flow state</h2>
 
