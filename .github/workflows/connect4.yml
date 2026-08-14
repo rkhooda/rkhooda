@@ -8,8 +8,11 @@ permissions:
   contents: write
   issues: write
 
+# Deliberately NOT the shared profile-commit group: GitHub supersedes a pending
+# run when a newer one queues behind it, so sharing a group with the frequent
+# profile and guestbook runs would silently drop a player's move.
 concurrency:
-  group: profile-commit
+  group: connect4-move
   cancel-in-progress: false
 
 jobs:
