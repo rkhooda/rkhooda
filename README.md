@@ -75,7 +75,7 @@
 
 <h2>guestbook</h2>
 
-<img src="https://raw.githubusercontent.com/rkhooda/rkhooda/main/assets/guestbook.svg?v=1" width="100%" alt="Everyone who signed my guestbook" />
+<img src="https://raw.githubusercontent.com/rkhooda/rkhooda/main/assets/guestbook.svg?v=msspm0jm" width="100%" alt="Everyone who signed my guestbook" />
 
 <p>leave a comment and your avatar joins the wall — nothing you type is shown</p>
 
