@@ -70,7 +70,7 @@
 
 <h2>guestbook</h2>
 
-<img src="assets/guestbook.svg?v=mstwjzp5" width="100%" alt="Everyone who signed my guestbook" />
+<img src="assets/guestbook.svg?v=msvc4nr2" width="100%" alt="Everyone who signed my guestbook" />
 
 <p>leave a comment and your avatar joins the wall — nothing you type is shown</p>
 
