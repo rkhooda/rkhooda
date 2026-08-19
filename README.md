@@ -1,17 +1,17 @@
 <div align="center">
 
 <!-- hero — repainted through the day by .github/workflows/profile.yml -->
-<img src="assets/hero-now.svg?v=mszjkj4h" width="100%" alt="Rakshit Hooda — full-stack developer, jack of too many trades, coding at night with headphones on" />
+<img src="assets/hero-now.svg?v=mszpl4x7" width="100%" alt="Rakshit Hooda — full-stack developer, jack of too many trades, coding at night with headphones on" />
 
 <br /><br />
 
 <!-- drawn from my real contribution data. Pinned via the ANIM repository
      variable; clear that variable and it rotates through all seven daily. -->
-<img src="assets/anim/today.svg?v=mszjkj4h" width="100%" alt="Today's contribution animation" />
+<img src="assets/anim/today.svg?v=mszpl4x7" width="100%" alt="Today's contribution animation" />
 
 <br /><br />
 
-<img src="assets/streak.svg?v=mszjkj4h" width="100%" alt="Contributions this year, current streak and longest streak" />
+<img src="assets/streak.svg?v=mszpl4x7" width="100%" alt="Contributions this year, current streak and longest streak" />
 
 <br /><br />
 
@@ -36,9 +36,9 @@
 ## currently building
 
 <!-- building:start -->
-- **[Portfolio](https://github.com/rkhooda/Portfolio)** `JavaScript` — guestbook: add word filter blocklist · _17h ago_
-- **[Clixo](https://github.com/rkhooda/Clixo)** `TypeScript` — feat(home): complete home page with trust signals, use cases, FAQ, fi… · _21h ago_
-- **[verified-digest](https://github.com/rkhooda/verified-digest)** `Python` — docs: rename project to verified-digest · _4d ago_
+- **[Portfolio](https://github.com/rkhooda/Portfolio)** `JavaScript` — guestbook: add word filter blocklist · _20h ago_
+- **[Clixo](https://github.com/rkhooda/Clixo)** `TypeScript` — feat(home): complete home page with trust signals, use cases, FAQ, fi… · _1d ago_
+- **[verified-digest](https://github.com/rkhooda/verified-digest)** `Python` — docs: rename project to verified-digest · _5d ago_
 - **[ProcrastiNO](https://github.com/rkhooda/ProcrastiNO)** `TypeScript` — refactor(theme): rename the type export to typeScale · _7d ago_
 - **[DSA](https://github.com/rkhooda/DSA)** `C++` — 0075-SORT-COLORS Stats: Time: 0 ms (100%), Space: 11.7 MB (49.51%) - … · _10d ago_
 <!-- building:end -->
@@ -47,7 +47,7 @@
 
 <h2>last 7 days</h2>
 
-<img src="assets/wakatime.svg?v=mszjkj4h" width="100%" alt="Where my last 7 days of coding went" />
+<img src="assets/wakatime.svg?v=mszpl4x7" width="100%" alt="Where my last 7 days of coding went" />
 
 <h2>in flow state</h2>
 
