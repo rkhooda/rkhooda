@@ -1,17 +1,17 @@
 <div align="center">
 
 <!-- hero — repainted through the day by .github/workflows/profile.yml -->
-<img src="assets/hero-now.svg?v=mt2xbsq8" width="100%" alt="Rakshit Hooda — full-stack developer, jack of too many trades, coding at night with headphones on" />
+<img src="assets/hero-now.svg?v=mt33nnnk" width="100%" alt="Rakshit Hooda — full-stack developer, jack of too many trades, coding at night with headphones on" />
 
 <br /><br />
 
 <!-- drawn from my real contribution data. Pinned via the ANIM repository
      variable; clear that variable and it rotates through all seven daily. -->
-<img src="assets/anim/today.svg?v=mt2xbsq8" width="100%" alt="Today's contribution animation" />
+<img src="assets/anim/today.svg?v=mt33nnnk" width="100%" alt="Today's contribution animation" />
 
 <br /><br />
 
-<img src="assets/streak.svg?v=mt2xbsq8" width="100%" alt="Contributions this year, current streak and longest streak" />
+<img src="assets/streak.svg?v=mt33nnnk" width="100%" alt="Contributions this year, current streak and longest streak" />
 
 <br /><br />
 
@@ -47,7 +47,7 @@
 
 <h2>last 7 days</h2>
 
-<img src="assets/wakatime.svg?v=mt2xbsq8" width="100%" alt="Where my last 7 days of coding went" />
+<img src="assets/wakatime.svg?v=mt33nnnk" width="100%" alt="Where my last 7 days of coding went" />
 
 <h2>in flow state</h2>
 
