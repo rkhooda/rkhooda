@@ -1,17 +1,17 @@
 <div align="center">
 
 <!-- hero — repainted through the day by .github/workflows/profile.yml -->
-<img src="assets/hero-now.svg?v=mtaai1hv" width="100%" alt="Rakshit Hooda — full-stack developer, jack of too many trades, coding at night with headphones on" />
+<img src="assets/hero-now.svg?v=mtahz74w" width="100%" alt="Rakshit Hooda — full-stack developer, jack of too many trades, coding at night with headphones on" />
 
 <br /><br />
 
 <!-- drawn from my real contribution data. Pinned via the ANIM repository
      variable; clear that variable and it rotates through all seven daily. -->
-<img src="assets/anim/today.svg?v=mtaai1hv" width="100%" alt="Today's contribution animation" />
+<img src="assets/anim/today.svg?v=mtahz74w" width="100%" alt="Today's contribution animation" />
 
 <br /><br />
 
-<img src="assets/streak.svg?v=mtaai1hv" width="100%" alt="Contributions this year, current streak and longest streak" />
+<img src="assets/streak.svg?v=mtahz74w" width="100%" alt="Contributions this year, current streak and longest streak" />
 
 <br /><br />
 
@@ -36,7 +36,7 @@
 ## currently building
 
 <!-- building:start -->
-- **[FlowPane](https://github.com/rkhooda/FlowPane)** `JavaScript` — Add video creation summary and ignore video source files · _3d ago_
+- **[FlowPane](https://github.com/rkhooda/FlowPane)** `JavaScript` — Add video creation summary and ignore video source files · _4d ago_
 - **[Portfolio](https://github.com/rkhooda/Portfolio)** `JavaScript` — guestbook: add word filter blocklist · _8d ago_
 - **[Clixo](https://github.com/rkhooda/Clixo)** `TypeScript` — feat(home): complete home page with trust signals, use cases, FAQ, fi… · _8d ago_
 - **[verified-digest](https://github.com/rkhooda/verified-digest)** `Python` — docs: rename project to verified-digest · _12d ago_
@@ -47,7 +47,7 @@
 
 <h2>last 7 days</h2>
 
-<img src="assets/wakatime.svg?v=mtaai1hv" width="100%" alt="Where my last 7 days of coding went" />
+<img src="assets/wakatime.svg?v=mtahz74w" width="100%" alt="Where my last 7 days of coding went" />
 
 <h2>in flow state</h2>
 
