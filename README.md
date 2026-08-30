@@ -1,17 +1,17 @@
 <div align="center">
 
 <!-- hero — repainted through the day by .github/workflows/profile.yml -->
-<img src="assets/hero-now.svg?v=mtg4rks5" width="100%" alt="Rakshit Hooda — full-stack developer, jack of too many trades, coding at night with headphones on" />
+<img src="assets/hero-now.svg?v=mtgey66r" width="100%" alt="Rakshit Hooda — full-stack developer, jack of too many trades, coding at night with headphones on" />
 
 <br /><br />
 
 <!-- drawn from my real contribution data. Pinned via the ANIM repository
      variable; clear that variable and it rotates through all seven daily. -->
-<img src="assets/anim/today.svg?v=mtg4rks5" width="100%" alt="Today's contribution animation" />
+<img src="assets/anim/today.svg?v=mtgey66r" width="100%" alt="Today's contribution animation" />
 
 <br /><br />
 
-<img src="assets/streak.svg?v=mtg4rks5" width="100%" alt="Contributions this year, current streak and longest streak" />
+<img src="assets/streak.svg?v=mtgey66r" width="100%" alt="Contributions this year, current streak and longest streak" />
 
 <br /><br />
 
@@ -40,14 +40,14 @@
 - **[Portfolio](https://github.com/rkhooda/Portfolio)** `JavaScript` — guestbook: add word filter blocklist · _12d ago_
 - **[Clixo](https://github.com/rkhooda/Clixo)** `TypeScript` — feat(home): complete home page with trust signals, use cases, FAQ, fi… · _12d ago_
 - **[verified-digest](https://github.com/rkhooda/verified-digest)** `Python` — docs: rename project to verified-digest · _16d ago_
-- **[Multiagent-builder](https://github.com/rkhooda/Multiagent-builder)** `Python` — docs: record the journey rung and correct the egress premise · _17d ago_
+- **[Multiagent-builder](https://github.com/rkhooda/Multiagent-builder)** `Python` — docs: record the journey rung and correct the egress premise · _18d ago_
 <!-- building:end -->
 
 <div align="center">
 
 <h2>last 7 days</h2>
 
-<img src="assets/wakatime.svg?v=mtg4rks5" width="100%" alt="Where my last 7 days of coding went" />
+<img src="assets/wakatime.svg?v=mtgey66r" width="100%" alt="Where my last 7 days of coding went" />
 
 <h2>in flow state</h2>
 
