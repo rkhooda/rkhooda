@@ -65,9 +65,8 @@ function writeHero() {
   });
   if (swapped === svg) console.warn('hero: sky gradient not found, palette left alone');
 
-  const zone = TZ.split('/').pop().replace('_', ' ');
   const badge = `<g font-family="${FONT}" font-size="12" font-weight="600" letter-spacing="1.5">
-    <text x="1164" y="46" text-anchor="end" fill="#565f89">${parts} · ${zone} · ${phase.label}</text>
+    <text x="1164" y="46" text-anchor="end" fill="${MUTED}">${parts} · ${phase.label}</text>
   </g>`;
 
   writeFileSync(`${ROOT}assets/hero-now.svg`, swapped.replace(/<\/svg>\s*$/, `${badge}\n</svg>\n`));
