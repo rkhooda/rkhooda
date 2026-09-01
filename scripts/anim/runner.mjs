@@ -52,7 +52,7 @@ export default function runner(p) {
   const character = `
     <g transform="translate(0 -11)">
       <rect x="-7" y="-8" width="14" height="15" rx="4" fill="${CYAN}"/>
-      <rect x="-1" y="-5" width="6" height="4" rx="1.5" fill="#12131c"/>
+      <rect x="-1" y="-5" width="6" height="4" rx="1.5" fill="#141210"/>
       <g class="legs">
         <rect x="-5" y="6" width="3.5" height="6" rx="1.5" fill="${PURPLE}"/>
         <rect x="1.5" y="6" width="3.5" height="6" rx="1.5" fill="${PURPLE}"/>

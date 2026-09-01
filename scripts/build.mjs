@@ -38,11 +38,11 @@ function todaysAnimation() {
 // ---------------------------------------------------------------- hero palette
 
 const PHASES = [
-  { until: 5, name: 'night', label: 'coding at night', sky: ['#14141b', '#1a1b26', '#1e2233'] },
-  { until: 8, name: 'dawn', label: 'up before the sun', sky: ['#241b2e', '#2b2038', '#3d2b48'] },
-  { until: 17, name: 'day', label: 'heads down', sky: ['#1a2130', '#1f2a3d', '#28374f'] },
-  { until: 21, name: 'dusk', label: 'golden hour', sky: ['#2b1c2a', '#32202f', '#45293c'] },
-  { until: 24, name: 'night', label: 'coding at night', sky: ['#14141b', '#1a1b26', '#1e2233'] },
+  { until: 5, name: 'night', label: 'coding at night', sky: ['#151210', '#1b1815', '#26211b'] },
+  { until: 8, name: 'dawn', label: 'up before the sun', sky: ['#22181c', '#2c1e1f', '#3f2a26'] },
+  { until: 17, name: 'day', label: 'heads down', sky: ['#1d1a16', '#26221c', '#352d24'] },
+  { until: 21, name: 'dusk', label: 'golden hour', sky: ['#2a1814', '#36201a', '#4d2c20'] },
+  { until: 24, name: 'night', label: 'coding at night', sky: ['#151210', '#1b1815', '#26211b'] },
 ];
 
 function writeHero() {

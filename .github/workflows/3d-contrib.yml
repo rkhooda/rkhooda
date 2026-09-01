@@ -19,6 +19,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: rkhooda
+          SETTING_JSON: .github/3d-contrib.json
 
       - name: Commit and push
         run: |

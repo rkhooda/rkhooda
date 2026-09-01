@@ -1,20 +1,21 @@
-// Shared SVG vocabulary. Everything is tokyonight, matching the existing hero.
+// Shared SVG vocabulary — the "darkroom" palette: warm charcoal, amber safelight,
+// terracotta, with dusty cool tones kept quiet in support. Matches assets/hero.svg.
 
-export const BG = '#1a1b26';
-export const PANEL = '#20222f';
-export const FG = '#c0caf5';
-export const MUTED = '#565f89';
-export const DIM = '#414868';
-export const BLUE = '#7aa2f7';
-export const CYAN = '#7dcfff';
-export const PURPLE = '#bb9af7';
-export const VIOLET = '#9d7cd8';
-export const RED = '#f7768e';
-export const GREEN = '#9ece6a';
-export const YELLOW = '#e0af68';
+export const BG = '#1b1815';
+export const PANEL = '#24201b';
+export const FG = '#efe6d8';
+export const MUTED = '#8c8071';
+export const DIM = '#453d34';
+export const BLUE = '#7a9db5';
+export const CYAN = '#86bdb6';
+export const PURPLE = '#bd97ab';
+export const VIOLET = '#9e7791';
+export const RED = '#e5674a';
+export const GREEN = '#9fb26c';
+export const YELLOW = '#f4a72a';
 
-// Contribution levels 0-4, same ramp the snake already uses on this profile.
-export const LEVELS = ['#232433', '#3b4261', '#7aa2f7', '#bb9af7', '#9d7cd8'];
+// Contribution levels 0-4: unlit → full amber.
+export const LEVELS = ['#262119', '#4a3d2c', '#8a6a34', '#c98d2e', '#f4a72a'];
 
 export const FONT = "'Segoe UI','Helvetica Neue',Arial,sans-serif";
 export const MONO = "'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace";

@@ -11,7 +11,7 @@ const ROW_H = 14;
 const TOP = 42;
 const CYCLE = 14;
 
-const PIECES = [CYAN, PURPLE, BLUE, GREEN, YELLOW, RED, '#ff9e64'];
+const PIECES = [CYAN, PURPLE, BLUE, GREEN, YELLOW, RED, '#f4a72a'];
 
 export default function tetris(p) {
   const weekly = p.weeks.map((w) => w.reduce((s, d) => s + d.count, 0));

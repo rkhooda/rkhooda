@@ -1,0 +1,11 @@
+{
+  "type": "normal",
+  "fileName": "profile-night-view.svg",
+  "backgroundColor": "#1b1815",
+  "foregroundColor": "#efe6d8",
+  "strongColor": "#f4a72a",
+  "weakColor": "#453d34",
+  "radarColor": "#e5674a",
+  "growingAnimation": true,
+  "contribColors": ["#262119", "#4a3d2c", "#8a6a34", "#c98d2e", "#f4a72a"]
+}

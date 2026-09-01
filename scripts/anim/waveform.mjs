@@ -66,7 +66,7 @@ export default function waveform(p) {
   const body = `
   ${grid}
   <line x1="${x0}" y1="${MID}" x2="${round(x0 + days.length * STEP)}" y2="${MID}" stroke="${DIM}" stroke-opacity="0.5" stroke-width="1"/>
-  <use href="#wave" fill="#2e3450"/>
+  <use href="#wave" fill="#4a3f35"/>
   <g mask="url(#sweep)"><use href="#wave" fill="url(#hot)" filter="url(#wglow)"/></g>
   <g opacity="0.9">
     <rect x="-1" y="30" width="2" height="${MID + AMP - 20}" fill="${CYAN}" filter="url(#wglow)">

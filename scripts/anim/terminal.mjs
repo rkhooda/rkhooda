@@ -69,7 +69,7 @@ export default function terminal(p) {
 
   const body = `
   <rect x="24" y="20" width="${WIDTH - 48}" height="${H - 44}" rx="10" fill="${PANEL}" stroke="${DIM}" stroke-opacity="0.6"/>
-  <rect x="24" y="20" width="${WIDTH - 48}" height="34" rx="10" fill="#191a24"/>
+  <rect x="24" y="20" width="${WIDTH - 48}" height="34" rx="10" fill="#24201b"/>
   <rect x="24" y="46" width="${WIDTH - 48}" height="8" fill="${PANEL}"/>
   <circle cx="48" cy="37" r="5.5" fill="${RED}"/><circle cx="68" cy="37" r="5.5" fill="${YELLOW}"/><circle cx="88" cy="37" r="5.5" fill="${GREEN}"/>
   <text x="${WIDTH / 2}" y="42" text-anchor="middle" font-family="${FONT}" font-size="12" font-weight="600" fill="${MUTED}" letter-spacing="1.5">${esc(p.login)} — zsh</text>
