@@ -1,6 +1,8 @@
 // node scripts/test.mjs — covers the logic that can silently go wrong.
 import assert from 'node:assert/strict';
-import { scale, noise } from './lib/svg.mjs';
+import * as svg from './lib/svg.mjs';
+import { DARK, dark } from './lib/theme.mjs';
+const { scale, noise } = svg;
 import { updateSection, bustCache } from './lib/readme.mjs';
 
 // --- scale ------------------------------------------------------------------
@@ -37,6 +39,17 @@ import { updateSection, bustCache } from './lib/readme.mjs';
   assert.ok(busted.includes('today.svg?v=zzz'), 'cache param bumped');
   const untouched = bustCache('![a](assets/other.svg?v=abc)', ['assets/anim/today.svg'], 'zzz');
   assert.ok(untouched.includes('?v=abc'), 'other images left alone');
+}
+
+// --- theme ------------------------------------------------------------------
+{
+  // Every light token must have a dark twin, or a card would ship half-themed.
+  const tokens = Object.entries(svg).filter(([, v]) => typeof v === 'string' && /^#[0-9a-f]{6}$/.test(v));
+  for (const [name, hex] of [...tokens, ...svg.LEVELS.map((h, i) => [`LEVELS[${i}]`, h])]) {
+    assert.ok(DARK[hex], `${name} (${hex}) has no dark counterpart`);
+  }
+  assert.equal(dark(`<rect fill="${svg.BG}"/>`), `<rect fill="${DARK[svg.BG]}"/>`, 'dark() swaps a token');
+  assert.equal(dark('<rect fill="#b78e6c"/>'), '<rect fill="#b78e6c"/>', 'unknown colours pass through');
 }
 
 console.log('all checks passed');

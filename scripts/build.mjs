@@ -2,6 +2,7 @@
 // time-of-day hero, the "currently building" list and the WakaTime card.
 import { mkdirSync, readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { fetchProfile, relativeTime } from './lib/gh.mjs';
+import { dark } from './lib/theme.mjs';
 import { readReadme, writeReadme, updateSection, bustCache } from './lib/readme.mjs';
 import { card, caption, esc, round, FONT, MUTED, DIM, FG, CYAN, BLUE, PURPLE, GREEN, YELLOW, RED, WIDTH } from './lib/svg.mjs';
 
@@ -37,13 +38,18 @@ function todaysAnimation() {
 
 // ---------------------------------------------------------------- hero palette
 
+// Sky gradients per phase — parchment tints for the light file, forest for the dark.
+const NIGHT = { light: ['#e3d9c4', '#ebe1cb', '#f2eadb'], dark: ['#0b140f', '#0f1a14', '#152219'] };
 const PHASES = [
-  { until: 5, name: 'night', label: 'coding at night', sky: ['#151210', '#1b1815', '#26211b'] },
-  { until: 8, name: 'dawn', label: 'up before the sun', sky: ['#22181c', '#2c1e1f', '#3f2a26'] },
-  { until: 17, name: 'day', label: 'heads down', sky: ['#1d1a16', '#26221c', '#352d24'] },
-  { until: 21, name: 'dusk', label: 'golden hour', sky: ['#2a1814', '#36201a', '#4d2c20'] },
-  { until: 24, name: 'night', label: 'coding at night', sky: ['#151210', '#1b1815', '#26211b'] },
+  { until: 5, name: 'night', label: 'coding at night', sky: NIGHT },
+  { until: 8, name: 'dawn', label: 'up before the sun', sky: { light: ['#eedccb', '#f2e4d1', '#f7eee0'], dark: ['#141a1c', '#182220', '#26302a'] } },
+  { until: 17, name: 'day', label: 'heads down', sky: { light: ['#ece2cb', '#f4e9cf', '#f6efe0'], dark: ['#101c17', '#16241c', '#1f3126'] } },
+  { until: 21, name: 'dusk', label: 'golden hour', sky: { light: ['#eedbb8', '#f2e3c4', '#f6ecd6'], dark: ['#1a1a14', '#20231a', '#2f3122'] } },
+  { until: 24, name: 'night', label: 'coding at night', sky: NIGHT },
 ];
+
+// Blocks the hero only shows in one theme (moon and stars vs the sun).
+const only = (svg, theme) => svg.replace(/<!-- (dark|light)-only[^>]*-->[\s\S]*?<!-- \/\1-only -->/g, (block, t) => (t === theme ? block : ''));
 
 function writeHero() {
   const src = `${ROOT}assets/hero.svg`;
@@ -58,18 +64,20 @@ function writeHero() {
   const hour = Number(parts.slice(0, 2));
   const phase = PHASES.find((p) => hour < p.until);
 
-  let svg = readFileSync(src, 'utf8');
-  const swapped = svg.replace(/<linearGradient id="sky"[\s\S]*?<\/linearGradient>/, (block) => {
-    let i = 0;
-    return block.replace(/stop-color="#[0-9a-fA-F]{3,8}"/g, () => `stop-color="${phase.sky[i++] ?? phase.sky.at(-1)}"`);
-  });
-  if (swapped === svg) console.warn('hero: sky gradient not found, palette left alone');
-
   const badge = `<g font-family="${FONT}" font-size="12" font-weight="600" letter-spacing="1.5">
     <text x="1164" y="46" text-anchor="end" fill="${MUTED}">${parts} · ${phase.label}</text>
   </g>`;
+  const svg = readFileSync(src, 'utf8').replace(/<\/svg>\s*$/, `${badge}\n</svg>\n`);
 
-  writeFileSync(`${ROOT}assets/hero-now.svg`, swapped.replace(/<\/svg>\s*$/, `${badge}\n</svg>\n`));
+  for (const theme of ['light', 'dark']) {
+    const themed = theme === 'dark' ? dark(only(svg, 'dark')) : only(svg, 'light');
+    if (!/<linearGradient id="sky"/.test(themed)) console.warn('hero: sky gradient not found, palette left alone');
+    const swapped = themed.replace(/<linearGradient id="sky"[\s\S]*?<\/linearGradient>/, (block) => {
+      let i = 0;
+      return block.replace(/stop-color="#[0-9a-fA-F]{3,8}"/g, () => `stop-color="${phase.sky[theme][i++] ?? phase.sky[theme].at(-1)}"`);
+    });
+    writeFileSync(`${ROOT}assets/hero-now${theme === 'dark' ? '-dark' : ''}.svg`, swapped);
+  }
   return phase;
 }
 
@@ -148,8 +156,14 @@ if (!TOKEN) throw new Error('GITHUB_TOKEN is required');
 const profile = await fetchProfile(LOGIN, TOKEN);
 const anim = todaysAnimation();
 
+/** Every generated card is written twice: the light file and its dark twin. */
+function writePair(name, svg) {
+  writeFileSync(`${ROOT}assets/${name}.svg`, svg);
+  writeFileSync(`${ROOT}assets/${name}-dark.svg`, dark(svg));
+}
+
 mkdirSync(`${ROOT}assets/anim`, { recursive: true });
-writeFileSync(`${ROOT}assets/anim/today.svg`, anim.default(profile));
+writePair('anim/today', anim.default(profile));
 
 const phase = writeHero();
 
@@ -161,12 +175,12 @@ if (process.env.WAKATIME_API_KEY) {
     console.warn(`wakatime: ${err.message} — writing the placeholder card`);
   }
 }
-writeFileSync(`${ROOT}assets/wakatime.svg`, wakaCard(waka));
-writeFileSync(`${ROOT}assets/streak.svg`, streakCard(profile));
+writePair('wakatime', wakaCard(waka));
+writePair('streak', streakCard(profile));
 
 let md = readReadme();
 md = updateSection(md, 'building', buildingSection(profile));
-md = bustCache(md, ['assets/anim/today.svg', 'assets/hero-now.svg', 'assets/wakatime.svg', 'assets/streak.svg']);
+md = bustCache(md, ['anim/today', 'hero-now', 'wakatime', 'streak'].flatMap((n) => [`assets/${n}.svg`, `assets/${n}-dark.svg`]));
 writeReadme(md);
 
 console.log(

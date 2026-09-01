@@ -1,21 +1,22 @@
-// Shared SVG vocabulary — the "darkroom" palette: warm charcoal, amber safelight,
-// terracotta, with dusty cool tones kept quiet in support. Matches assets/hero.svg.
+// Shared SVG vocabulary. These are the LIGHT palette ("olive & parchment"); the
+// dark palette ("deep forest") is derived from it by lib/theme.mjs, so every card
+// is drawn once and written twice. Matches assets/hero.svg.
 
-export const BG = '#1b1815';
-export const PANEL = '#24201b';
-export const FG = '#efe6d8';
-export const MUTED = '#8c8071';
-export const DIM = '#453d34';
-export const BLUE = '#7a9db5';
-export const CYAN = '#86bdb6';
-export const PURPLE = '#bd97ab';
-export const VIOLET = '#9e7791';
-export const RED = '#e5674a';
-export const GREEN = '#9fb26c';
-export const YELLOW = '#f4a72a';
+export const BG = '#f4e9cf';
+export const PANEL = '#e9dcbd';
+export const FG = '#2d2a20';
+export const MUTED = '#7a7460';
+export const DIM = '#cdc2a4';
+export const BLUE = '#56708a';
+export const CYAN = '#3f8a86';
+export const PURPLE = '#7d5477';
+export const VIOLET = '#5f3f5a';
+export const RED = '#b5573f';
+export const GREEN = '#8a9a4a';
+export const YELLOW = '#6b7a3a';
 
-// Contribution levels 0-4: unlit → full amber.
-export const LEVELS = ['#262119', '#4a3d2c', '#8a6a34', '#c98d2e', '#f4a72a'];
+// Contribution levels 0-4: bare parchment → deep olive.
+export const LEVELS = ['#e4dac1', '#cfcf96', '#a9ad58', '#7f8a3a', '#4f5a22'];
 
 export const FONT = "'Segoe UI','Helvetica Neue',Arial,sans-serif";
 export const MONO = "'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace";

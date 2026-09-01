@@ -89,8 +89,8 @@ ${keyframes.join('\n')}`;
     <ellipse cx="0" cy="${floor - 6}" rx="14" ry="6" fill="${YELLOW}" opacity="0.22" filter="url(#pglow)"/>
     <g transform="translate(0 ${PLANE_Y})" filter="url(#pglow)">
       <path d="M22,0 L-8,-9 L-2,0 L-8,9 Z" fill="${CYAN}"/>
-      <path d="M-4,-3 L-20,-14 L-14,-2 Z" fill="#7a9db5"/>
-      <path d="M-4,3 L-20,14 L-14,2 Z" fill="#7a9db5"/>
+      <path d="M-4,-3 L-20,-14 L-14,-2 Z" fill="#56708a"/>
+      <path d="M-4,3 L-20,14 L-14,2 Z" fill="#56708a"/>
       <path d="M-14,0 L-26,-4 L-26,4 Z" fill="${RED}" opacity="0.9"/>
     </g>
   </g>

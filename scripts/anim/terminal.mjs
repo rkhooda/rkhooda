@@ -52,7 +52,7 @@ export default function terminal(p) {
 
     const content =
       line.kind === 'cmd'
-        ? `<tspan fill="${GREEN}">$ </tspan><tspan fill="#fff">${esc(line.text)}</tspan>`
+        ? `<tspan fill="${GREEN}">$ </tspan><tspan fill="${FG}">${esc(line.text)}</tspan>`
         : `<tspan fill="${line.fill}">${esc(line.text)}</tspan>`;
 
     rows.push(`<g clip-path="url(#tl${i})"><text x="${X}" y="${y}" font-family="${MONO}" font-size="13.5">${content}</text></g>`);
@@ -69,7 +69,7 @@ export default function terminal(p) {
 
   const body = `
   <rect x="24" y="20" width="${WIDTH - 48}" height="${H - 44}" rx="10" fill="${PANEL}" stroke="${DIM}" stroke-opacity="0.6"/>
-  <rect x="24" y="20" width="${WIDTH - 48}" height="34" rx="10" fill="#24201b"/>
+  <rect x="24" y="20" width="${WIDTH - 48}" height="34" rx="10" fill="${DIM}" fill-opacity="0.35"/>
   <rect x="24" y="46" width="${WIDTH - 48}" height="8" fill="${PANEL}"/>
   <circle cx="48" cy="37" r="5.5" fill="${RED}"/><circle cx="68" cy="37" r="5.5" fill="${YELLOW}"/><circle cx="88" cy="37" r="5.5" fill="${GREEN}"/>
   <text x="${WIDTH / 2}" y="42" text-anchor="middle" font-family="${FONT}" font-size="12" font-weight="600" fill="${MUTED}" letter-spacing="1.5">${esc(p.login)} — zsh</text>
