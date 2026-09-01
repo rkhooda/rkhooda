@@ -13,8 +13,7 @@ on:
 permissions:
   contents: write
 
-# Shared with the guestbook and connect4 workflows so their commits queue
-# instead of racing each other to push.
+# A push and a scheduled run can land minutes apart; queue them instead of racing to push.
 concurrency:
   group: profile-commit
   cancel-in-progress: false

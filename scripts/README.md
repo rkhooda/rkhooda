@@ -4,27 +4,17 @@ Plain Node, no dependencies. Everything is generated from the GitHub API and
 committed back to this repo, so the README never depends on a third-party
 service staying up.
 
-## One-time setup
-
-```sh
-GITHUB_TOKEN=$(gh auth token) GITHUB_REPOSITORY=rkhooda/rkhooda node scripts/setup.mjs
-```
-
-Creates and pins the **guestbook** issue, adds its label, and writes its link
-into the README. Safe to re-run.
+## Setup
 
 Optional: add a `WAKATIME_API_KEY` repository secret to fill in the "last 7
 days" card. Without it that card shows a placeholder instead of breaking.
 
 ## Workflows
 
-| Workflow        | Trigger                         | What it does                                                  |
-| --------------- | ------------------------------- | ------------------------------------------------------------- |
-| `profile.yml`   | every 3h, push to `scripts/**`  | today's animation, hero palette, currently building, WakaTime |
-| `guestbook.yml` | comments on the guestbook issue | redraws the avatar wall                                       |
-
-Both share the `profile-commit` concurrency group so their commits queue rather
-than racing to push.
+| Workflow      | Trigger                        | What it does                                                          |
+| ------------- | ------------------------------ | --------------------------------------------------------------------- |
+| `profile.yml` | every 3h, push to `scripts/**` | today's animation, hero palette, currently building, WakaTime, streak |
+| `3d-contrib.yml` | daily                       | the contribution skyline                                              |
 
 ## Local
 

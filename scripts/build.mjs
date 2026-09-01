@@ -5,7 +5,6 @@ import { fetchProfile, relativeTime } from './lib/gh.mjs';
 import { readReadme, writeReadme, updateSection, bustCache } from './lib/readme.mjs';
 import { card, caption, esc, round, FONT, MUTED, DIM, FG, CYAN, BLUE, PURPLE, GREEN, YELLOW, RED, WIDTH } from './lib/svg.mjs';
 
-import { wall as guestbookWall } from './guestbook.mjs';
 import streakCard from './cards/streak.mjs';
 
 // Namespace imports so each module's `id` travels with its render function.
@@ -165,10 +164,6 @@ if (process.env.WAKATIME_API_KEY) {
 }
 writeFileSync(`${ROOT}assets/wakatime.svg`, wakaCard(waka));
 writeFileSync(`${ROOT}assets/streak.svg`, streakCard(profile));
-
-// Starting state, so the README never points at a file that does not exist yet.
-// The guestbook workflow overwrites this the moment somebody signs.
-if (!existsSync(`${ROOT}assets/guestbook.svg`)) writeFileSync(`${ROOT}assets/guestbook.svg`, guestbookWall([], [], 0));
 
 let md = readReadme();
 md = updateSection(md, 'building', buildingSection(profile));

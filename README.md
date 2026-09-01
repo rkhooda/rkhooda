@@ -68,15 +68,6 @@
 
 <img src="profile-3d-contrib/profile-night-view.svg" width="100%" alt="my contributions as a 3D skyline" />
 
-<h2>guestbook</h2>
-
-<img src="assets/guestbook.svg?v=mth4nxxb" width="100%" alt="Everyone who signed my guestbook" />
-
-<p>leave a comment and your avatar joins the wall — nothing you type is shown</p>
-
-<!-- guestbook-link:start -->
-<a href="https://github.com/rkhooda/rkhooda/issues/1"><img src="https://img.shields.io/badge/sign_the_guestbook-7aa2f7?style=for-the-badge&logo=github&logoColor=white&labelColor=1a1b26" alt="Sign the guestbook" /></a>
-<!-- guestbook-link:end -->
 
 <br /><br />
 
