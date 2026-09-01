@@ -16,12 +16,12 @@
       <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="600 0" dur="11s" repeatCount="indefinite"/>
     </linearGradient>
     <!-- /light-only -->
-    <!-- dark-only: gold, cream and coral — the name is not a contribution graph -->
+    <!-- dark-only: cream with a soft silver sheen — the name is not a contribution graph -->
     <linearGradient id="shine" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="600" y2="0" spreadMethod="repeat">
-      <stop offset="0" stop-color="#e6c47a"/>
-      <stop offset="0.33" stop-color="#f1e7c9"/>
-      <stop offset="0.66" stop-color="#e8846a"/>
-      <stop offset="1" stop-color="#e6c47a"/>
+      <stop offset="0" stop-color="#f1e7c9"/>
+      <stop offset="0.33" stop-color="#c9ced6"/>
+      <stop offset="0.66" stop-color="#f1e7c9"/>
+      <stop offset="1" stop-color="#f1e7c9"/>
       <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="600 0" dur="11s" repeatCount="indefinite"/>
     </linearGradient>
     <!-- /dark-only -->
@@ -97,7 +97,7 @@
 
     <!-- ═══ left column: name ═══ -->
     <!-- light-only --><text x="72" y="152" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="58" font-weight="800" fill="#4f5a22" opacity="0.35" filter="url(#soft)">Rakshit Hooda</text><!-- /light-only -->
-    <!-- dark-only --><text x="72" y="152" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="58" font-weight="800" fill="#e6c47a" opacity="0.35" filter="url(#soft)">Rakshit Hooda</text><!-- /dark-only -->
+    <!-- dark-only --><text x="72" y="152" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="58" font-weight="800" fill="#f1e7c9" opacity="0.22" filter="url(#soft)">Rakshit Hooda</text><!-- /dark-only -->
     <text x="72" y="152" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="58" font-weight="800" fill="url(#shine)">Rakshit Hooda</text>
 
     <text x="74" y="190" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="15" font-weight="600" letter-spacing="6" fill="#6a6450">JACK OF TOO MANY TRADES</text>

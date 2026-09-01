@@ -2,9 +2,8 @@
 // finished light SVG becomes its dark twin with a single pass. The README pairs
 // the two files with <picture>, which GitHub switches with its own theme setting.
 //
-// Dark is "ink": a warm graphite ground with cream type. Green is kept only for
-// the things that draw contributions (ramp, streak); everything else goes gold,
-// coral or lilac so the page does not read as green wallpaper.
+// Dark is "ink": a warm graphite ground, cream type and one quiet slate accent.
+// Green is kept only for the things that draw contributions (ramp, streak).
 export const DARK = {
   // ground and type
   '#f4e9cf': '#15161a', // BG
@@ -19,11 +18,11 @@ export const DARK = {
   '#7f8a3a': '#5fb37e',
   '#4f5a22': '#8fd3a8',
   // accents
-  '#56708a': '#8fa3d1', // BLUE
-  '#3f8a86': '#e6c47a', // CYAN — card headers, headphones
-  '#7d5477': '#b8a1c9', // PURPLE
-  '#5f3f5a': '#9683a8', // VIOLET
-  '#b5573f': '#e8846a', // RED
+  '#56708a': '#8fa3b8', // BLUE
+  '#3f8a86': '#a3b1c2', // CYAN — card headers, headphones
+  '#7d5477': '#b09cb8', // PURPLE
+  '#5f3f5a': '#8f7f98', // VIOLET
+  '#b5573f': '#d8907c', // RED
   '#8a9a4a': '#9fcf9a', // GREEN
   '#6b7a3a': '#8fd3a8', // YELLOW — the streak colour, stays green
   // hero scenery
