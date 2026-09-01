@@ -39,12 +39,12 @@ function todaysAnimation() {
 // ---------------------------------------------------------------- hero palette
 
 // Sky gradients per phase — parchment tints for the light file, forest for the dark.
-const NIGHT = { light: ['#e3d9c4', '#ebe1cb', '#f2eadb'], dark: ['#0b140f', '#0f1a14', '#152219'] };
+const NIGHT = { light: ['#e3d9c4', '#ebe1cb', '#f2eadb'], dark: ['#101014', '#15161a', '#1d1d24'] };
 const PHASES = [
   { until: 5, name: 'night', label: 'coding at night', sky: NIGHT },
-  { until: 8, name: 'dawn', label: 'up before the sun', sky: { light: ['#eedccb', '#f2e4d1', '#f7eee0'], dark: ['#141a1c', '#182220', '#26302a'] } },
-  { until: 17, name: 'day', label: 'heads down', sky: { light: ['#ece2cb', '#f4e9cf', '#f6efe0'], dark: ['#101c17', '#16241c', '#1f3126'] } },
-  { until: 21, name: 'dusk', label: 'golden hour', sky: { light: ['#eedbb8', '#f2e3c4', '#f6ecd6'], dark: ['#1a1a14', '#20231a', '#2f3122'] } },
+  { until: 8, name: 'dawn', label: 'up before the sun', sky: { light: ['#eedccb', '#f2e4d1', '#f7eee0'], dark: ['#1a151c', '#211a22', '#2e2430'] } },
+  { until: 17, name: 'day', label: 'heads down', sky: { light: ['#ece2cb', '#f4e9cf', '#f6efe0'], dark: ['#131418', '#191a20', '#23242c'] } },
+  { until: 21, name: 'dusk', label: 'golden hour', sky: { light: ['#eedbb8', '#f2e3c4', '#f6ecd6'], dark: ['#1c1614', '#241b19', '#332521'] } },
   { until: 24, name: 'night', label: 'coding at night', sky: NIGHT },
 ];
 

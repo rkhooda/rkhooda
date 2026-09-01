@@ -2,8 +2,8 @@
   <title>WakaTime is still warming up</title>
   <defs></defs>
   <style></style>
-  <rect width="1200" height="150" rx="14" fill="#0f1a14"/>
-  <text x="24" y="30" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="13" font-weight="700" fill="#8fd3a8" letter-spacing="2">LAST 7 DAYS</text>
+  <rect width="1200" height="150" rx="14" fill="#15161a"/>
+  <text x="24" y="30" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="13" font-weight="700" fill="#e6c47a" letter-spacing="2">LAST 7 DAYS</text>
   <text x="600" y="82" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="16" fill="#f1e7c9">still warming up — WakaTime starts counting once the editor plugin is installed</text>
-  <text x="24" y="134" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="13" font-weight="600" fill="#7d8f7e" letter-spacing="1.5">THIS CARD FILLS IN ON ITS OWN</text>
+  <text x="24" y="134" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="13" font-weight="600" fill="#8a8794" letter-spacing="1.5">THIS CARD FILLS IN ON ITS OWN</text>
 </svg>

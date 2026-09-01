@@ -2,8 +2,8 @@
 
 <!-- hero — repainted through the day by .github/workflows/profile.yml -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-now-dark.svg?v=mtiaf7r7">
-  <img src="assets/hero-now.svg?v=mtiaf7r7" width="100%" alt="Rakshit Hooda — full-stack developer, jack of too many trades, coding at night with headphones on" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-now-dark.svg?v=mtiaoqev">
+  <img src="assets/hero-now.svg?v=mtiaoqev" width="100%" alt="Rakshit Hooda — full-stack developer, jack of too many trades, coding at night with headphones on" />
 </picture>
 
 <br /><br />
@@ -11,41 +11,41 @@
 <!-- drawn from my real contribution data. Pinned via the ANIM repository
      variable; clear that variable and it rotates through all seven daily. -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/anim/today-dark.svg?v=mtiaf7r7">
-  <img src="assets/anim/today.svg?v=mtiaf7r7" width="100%" alt="Today's contribution animation" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/anim/today-dark.svg?v=mtiaoqev">
+  <img src="assets/anim/today.svg?v=mtiaoqev" width="100%" alt="Today's contribution animation" />
 </picture>
 
 <br /><br />
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/streak-dark.svg?v=mtiaf7r7">
-  <img src="assets/streak.svg?v=mtiaf7r7" width="100%" alt="The last 12 months as one bar per day, with the current and longest streaks" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/streak-dark.svg?v=mtiaoqev">
+  <img src="assets/streak.svg?v=mtiaoqev" width="100%" alt="The last 12 months as one bar per day, with the current and longest streaks" />
 </picture>
 
 <br /><br />
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=900&color=8FD3A8&center=true&vCenter=true&width=800&height=48&lines=Full-stack+developer+chasing+good+ideas+and+good+music.;JACK+OF+TOO+MANY+TRADES;TypeScript+%C2%B7+React+%C2%B7+Node+%C2%B7+Python+%C2%B7+Unity;always+building+%C2%B7+always+vibing+%F0%9F%8E%A7">
+  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=900&color=E6C47A&center=true&vCenter=true&width=800&height=48&lines=Full-stack+developer+chasing+good+ideas+and+good+music.;JACK+OF+TOO+MANY+TRADES;TypeScript+%C2%B7+React+%C2%B7+Node+%C2%B7+Python+%C2%B7+Unity;always+building+%C2%B7+always+vibing+%F0%9F%8E%A7">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=900&color=6B7A3A&center=true&vCenter=true&width=800&height=48&lines=Full-stack+developer+chasing+good+ideas+and+good+music.;JACK+OF+TOO+MANY+TRADES;TypeScript+%C2%B7+React+%C2%B7+Node+%C2%B7+Python+%C2%B7+Unity;always+building+%C2%B7+always+vibing+%F0%9F%8E%A7" alt="Full-stack developer chasing good ideas and good music. Jack of too many trades." />
 </picture>
 
 <p>
   <a href="https://www.linkedin.com/in/rakshit-hooda/">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/LinkedIn-Rakshit_Hooda-86aac6?style=for-the-badge&logo=linkedin&logoColor=ffffff&labelColor=16231a">
+      <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/LinkedIn-Rakshit_Hooda-8fa3d1?style=for-the-badge&logo=linkedin&logoColor=ffffff&labelColor=1f1e23">
       <img src="https://img.shields.io/badge/LinkedIn-Rakshit_Hooda-56708a?style=for-the-badge&logo=linkedin&logoColor=2d2a20&labelColor=e9dcbd" alt="LinkedIn" />
     </picture>
   </a>
   <a href="mailto:rakshit.official703@gmail.com">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Email-say_hi-e8846a?style=for-the-badge&logo=gmail&logoColor=ffffff&labelColor=16231a">
+      <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Email-say_hi-e8846a?style=for-the-badge&logo=gmail&logoColor=ffffff&labelColor=1f1e23">
       <img src="https://img.shields.io/badge/Email-say_hi-b5573f?style=for-the-badge&logo=gmail&logoColor=2d2a20&labelColor=e9dcbd" alt="Email" />
     </picture>
   </a>
   <!-- portfolio — uncomment and drop the URL in:
   <a href="YOUR_PORTFOLIO_URL">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Portfolio-visit-b8a1c9?style=for-the-badge&logo=googlechrome&logoColor=ffffff&labelColor=16231a">
+      <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Portfolio-visit-b8a1c9?style=for-the-badge&logo=googlechrome&logoColor=ffffff&labelColor=1f1e23">
       <img src="https://img.shields.io/badge/Portfolio-visit-7d5477?style=for-the-badge&logo=googlechrome&logoColor=2d2a20&labelColor=e9dcbd" alt="Portfolio" />
     </picture>
   </a>
@@ -69,8 +69,8 @@
 <h2>last 7 days</h2>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/wakatime-dark.svg?v=mtiaf7r7">
-  <img src="assets/wakatime.svg?v=mtiaf7r7" width="100%" alt="Where my last 7 days of coding went" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/wakatime-dark.svg?v=mtiaoqev">
+  <img src="assets/wakatime.svg?v=mtiaoqev" width="100%" alt="Where my last 7 days of coding went" />
 </picture>
 
 <h2>in flow state</h2>
@@ -86,19 +86,19 @@
 
 <p>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/React_Native-16231a?style=for-the-badge&logo=react&logoColor=61DAFB">
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/React_Native-1f1e23?style=for-the-badge&logo=react&logoColor=61DAFB">
     <img src="https://img.shields.io/badge/React_Native-e9dcbd?style=for-the-badge&logo=react&logoColor=2f6f8f" alt="React Native" />
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Expo-16231a?style=for-the-badge&logo=expo&logoColor=white">
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Expo-1f1e23?style=for-the-badge&logo=expo&logoColor=white">
     <img src="https://img.shields.io/badge/Expo-e9dcbd?style=for-the-badge&logo=expo&logoColor=2d2a20" alt="Expo" />
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/IPFS-16231a?style=for-the-badge&logo=ipfs&logoColor=65C2CB">
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/IPFS-1f1e23?style=for-the-badge&logo=ipfs&logoColor=65C2CB">
     <img src="https://img.shields.io/badge/IPFS-e9dcbd?style=for-the-badge&logo=ipfs&logoColor=3f8a86" alt="IPFS" />
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/OpenAI-16231a?style=for-the-badge&logo=openai&logoColor=white">
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/OpenAI-1f1e23?style=for-the-badge&logo=openai&logoColor=white">
     <img src="https://img.shields.io/badge/OpenAI-e9dcbd?style=for-the-badge&logo=openai&logoColor=2d2a20" alt="OpenAI" />
   </picture>
 </p>

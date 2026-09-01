@@ -31,7 +31,8 @@ ANIM=plane GITHUB_TOKEN=$(gh auth token) node scripts/build.mjs   # force one an
 - GitHub caches README images through its image proxy, so every generated image
   carries a `?v=` parameter that the scripts bump on each write.
 - Two themes, one source: every card is drawn in the light palette
-  (`lib/svg.mjs`, olive & parchment) and its dark twin (deep forest) is derived
+  (`lib/svg.mjs`, olive & parchment) and its dark twin (ink: graphite ground, green
+  kept only for contribution graphics) is derived
   by `lib/theme.mjs`, which maps each light colour to one dark colour. The
   README pairs `x.svg` / `x-dark.svg` with `<picture>`, which GitHub switches
   with the viewer's GitHub theme. Adding a colour means adding it to both files;

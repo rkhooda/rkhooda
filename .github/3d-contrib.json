@@ -13,12 +13,12 @@
   {
     "type": "normal",
     "fileName": "profile-dark.svg",
-    "backgroundColor": "#0f1a14",
+    "backgroundColor": "#15161a",
     "foregroundColor": "#f1e7c9",
     "strongColor": "#8fd3a8",
-    "weakColor": "#2a3a2e",
+    "weakColor": "#2f2e36",
     "radarColor": "#e8846a",
     "growingAnimation": true,
-    "contribColors": ["#172419", "#22412c", "#357a4b", "#5fb37e", "#8fd3a8"]
+    "contribColors": ["#1e1f24", "#27402f", "#357a4b", "#5fb37e", "#8fd3a8"]
   }
 ]

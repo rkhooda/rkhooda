@@ -1,39 +1,43 @@
 // Light → dark. Every colour the light cards use has one dark counterpart, so a
 // finished light SVG becomes its dark twin with a single pass. The README pairs
 // the two files with <picture>, which GitHub switches with its own theme setting.
+//
+// Dark is "ink": a warm graphite ground with cream type. Green is kept only for
+// the things that draw contributions (ramp, streak); everything else goes gold,
+// coral or lilac so the page does not read as green wallpaper.
 export const DARK = {
   // ground and type
-  '#f4e9cf': '#0f1a14', // BG
-  '#e9dcbd': '#16231a', // PANEL
+  '#f4e9cf': '#15161a', // BG
+  '#e9dcbd': '#1f1e23', // PANEL
   '#2d2a20': '#f1e7c9', // FG
-  '#7a7460': '#7d8f7e', // MUTED
-  '#cdc2a4': '#2a3a2e', // DIM
+  '#7a7460': '#8a8794', // MUTED
+  '#cdc2a4': '#2f2e36', // DIM
   // contribution ramp
-  '#e4dac1': '#172419',
-  '#cfcf96': '#22412c',
+  '#e4dac1': '#1e1f24',
+  '#cfcf96': '#27402f',
   '#a9ad58': '#357a4b',
   '#7f8a3a': '#5fb37e',
   '#4f5a22': '#8fd3a8',
   // accents
-  '#56708a': '#86aac6', // BLUE
-  '#3f8a86': '#8fd3a8', // CYAN
+  '#56708a': '#8fa3d1', // BLUE
+  '#3f8a86': '#e6c47a', // CYAN — card headers, headphones
   '#7d5477': '#b8a1c9', // PURPLE
   '#5f3f5a': '#9683a8', // VIOLET
   '#b5573f': '#e8846a', // RED
-  '#8a9a4a': '#a3c29a', // GREEN
-  '#6b7a3a': '#8fd3a8', // YELLOW — the streak colour
+  '#8a9a4a': '#9fcf9a', // GREEN
+  '#6b7a3a': '#8fd3a8', // YELLOW — the streak colour, stays green
   // hero scenery
-  '#ece2cb': '#0b140f', // sky top
-  '#f6efe0': '#152219', // sky bottom
-  '#262319': '#0a120d', // screens
-  '#c9bc9c': '#263a2d',
-  '#bcae8e': '#1f3025',
-  '#b5a887': '#1c2c22',
-  '#d3c7a8': '#233529',
-  '#b0a383': '#1e2e24',
-  '#3a3128': '#1d2a21', // hair
+  '#ece2cb': '#101014', // sky top
+  '#f6efe0': '#1d1d24', // sky bottom
+  '#262319': '#0e0e11', // screens
+  '#c9bc9c': '#2c2b33',
+  '#bcae8e': '#25242b',
+  '#b5a887': '#222128',
+  '#d3c7a8': '#2a2930',
+  '#b0a383': '#232229',
+  '#3a3128': '#26252c', // hair
   '#c9a03a': '#f1e7c9', // sun → cream (name gradient mid-stop)
-  '#6a6450': '#a6b8a4', // subtitle
+  '#6a6450': '#a9a6b3', // subtitle
   '#8f877a': '#f0ede2', // cat
 };
 
