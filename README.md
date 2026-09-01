@@ -1,17 +1,17 @@
 <div align="center">
 
 <!-- hero — repainted through the day by .github/workflows/profile.yml -->
-<img src="assets/hero-now.svg?v=mti9p0jr" width="100%" alt="Rakshit Hooda — full-stack developer, jack of too many trades, coding at night with headphones on" />
+<img src="assets/hero-now.svg?v=mti9vs9i" width="100%" alt="Rakshit Hooda — full-stack developer, jack of too many trades, coding at night with headphones on" />
 
 <br /><br />
 
 <!-- drawn from my real contribution data. Pinned via the ANIM repository
      variable; clear that variable and it rotates through all seven daily. -->
-<img src="assets/anim/today.svg?v=mti9p0jr" width="100%" alt="Today's contribution animation" />
+<img src="assets/anim/today.svg?v=mti9vs9i" width="100%" alt="Today's contribution animation" />
 
 <br /><br />
 
-<img src="assets/streak.svg?v=mti9p0jr" width="100%" alt="The last 12 months as one bar per day, with the current and longest streaks" />
+<img src="assets/streak.svg?v=mti9vs9i" width="100%" alt="The last 12 months as one bar per day, with the current and longest streaks" />
 
 <br /><br />
 
@@ -38,7 +38,7 @@
 <!-- building:start -->
 - **[FlowPane](https://github.com/rkhooda/FlowPane)** `JavaScript` — Add video creation summary and ignore video source files · _9d ago_
 - **[Portfolio](https://github.com/rkhooda/Portfolio)** `JavaScript` — guestbook: add word filter blocklist · _13d ago_
-- **[Clixo](https://github.com/rkhooda/Clixo)** `TypeScript` — feat(home): complete home page with trust signals, use cases, FAQ, fi… · _13d ago_
+- **[Clixo](https://github.com/rkhooda/Clixo)** `TypeScript` — feat(home): complete home page with trust signals, use cases, FAQ, fi… · _14d ago_
 - **[verified-digest](https://github.com/rkhooda/verified-digest)** `Python` — docs: rename project to verified-digest · _18d ago_
 - **[Multiagent-builder](https://github.com/rkhooda/Multiagent-builder)** `Python` — docs: record the journey rung and correct the egress premise · _19d ago_
 <!-- building:end -->
@@ -47,7 +47,7 @@
 
 <h2>last 7 days</h2>
 
-<img src="assets/wakatime.svg?v=mti9p0jr" width="100%" alt="Where my last 7 days of coding went" />
+<img src="assets/wakatime.svg?v=mti9vs9i" width="100%" alt="Where my last 7 days of coding went" />
 
 <h2>in flow state</h2>
 
