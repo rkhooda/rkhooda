@@ -3,9 +3,9 @@
 
   <defs>
     <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#131418"/>
-      <stop offset="0.55" stop-color="#191a20"/>
-      <stop offset="1" stop-color="#23242c"/>
+      <stop offset="0" stop-color="#1c1614"/>
+      <stop offset="0.55" stop-color="#241b19"/>
+      <stop offset="1" stop-color="#332521"/>
     </linearGradient>
     
     <!-- dark-only: cream with a soft silver sheen — the name is not a contribution graph -->
@@ -375,6 +375,6 @@
   <!-- card border -->
   <rect x="0.75" y="0.75" width="1198.5" height="328.5" rx="16" fill="none" stroke="#2c2b33" stroke-width="1.5"/>
 <g font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12" font-weight="600" letter-spacing="1.5">
-    <text x="1164" y="46" text-anchor="end" fill="#8a8794">12:56 · heads down</text>
+    <text x="1164" y="46" text-anchor="end" fill="#8a8794">18:35 · golden hour</text>
   </g>
 </svg>
