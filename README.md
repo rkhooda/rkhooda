@@ -2,8 +2,8 @@
 
 <!-- hero — repainted through the day by .github/workflows/profile.yml -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-now-dark.svg?v=mtkf0pri">
-  <img src="assets/hero-now.svg?v=mtkf0pri" width="100%" alt="Rakshit Hooda — full-stack developer, jack of too many trades, coding at night with headphones on" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-now-dark.svg?v=mtkp10zz">
+  <img src="assets/hero-now.svg?v=mtkp10zz" width="100%" alt="Rakshit Hooda — full-stack developer, jack of too many trades, coding at night with headphones on" />
 </picture>
 
 <br /><br />
@@ -11,15 +11,15 @@
 <!-- drawn from my real contribution data. Pinned via the ANIM repository
      variable; clear that variable and it rotates through all seven daily. -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/anim/today-dark.svg?v=mtkf0pri">
-  <img src="assets/anim/today.svg?v=mtkf0pri" width="100%" alt="Today's contribution animation" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/anim/today-dark.svg?v=mtkp10zz">
+  <img src="assets/anim/today.svg?v=mtkp10zz" width="100%" alt="Today's contribution animation" />
 </picture>
 
 <br /><br />
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/streak-dark.svg?v=mtkf0pri">
-  <img src="assets/streak.svg?v=mtkf0pri" width="100%" alt="The last 12 months as one bar per day, with the current and longest streaks" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/streak-dark.svg?v=mtkp10zz">
+  <img src="assets/streak.svg?v=mtkp10zz" width="100%" alt="The last 12 months as one bar per day, with the current and longest streaks" />
 </picture>
 
 <br /><br />
@@ -57,11 +57,11 @@
 ## currently building
 
 <!-- building:start -->
-- **[FlowPane](https://github.com/rkhooda/FlowPane)** `JavaScript` — Add video creation summary and ignore video source files · _10d ago_
+- **[FlowPane](https://github.com/rkhooda/FlowPane)** `JavaScript` — Add video creation summary and ignore video source files · _11d ago_
 - **[Portfolio](https://github.com/rkhooda/Portfolio)** `JavaScript` — guestbook: add word filter blocklist · _15d ago_
 - **[Clixo](https://github.com/rkhooda/Clixo)** `TypeScript` — feat(home): complete home page with trust signals, use cases, FAQ, fi… · _15d ago_
 - **[verified-digest](https://github.com/rkhooda/verified-digest)** `Python` — docs: rename project to verified-digest · _19d ago_
-- **[Multiagent-builder](https://github.com/rkhooda/Multiagent-builder)** `Python` — docs: record the journey rung and correct the egress premise · _20d ago_
+- **[Multiagent-builder](https://github.com/rkhooda/Multiagent-builder)** `Python` — docs: record the journey rung and correct the egress premise · _21d ago_
 <!-- building:end -->
 
 <div align="center">
@@ -69,8 +69,8 @@
 <h2>last 7 days</h2>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/wakatime-dark.svg?v=mtkf0pri">
-  <img src="assets/wakatime.svg?v=mtkf0pri" width="100%" alt="Where my last 7 days of coding went" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/wakatime-dark.svg?v=mtkp10zz">
+  <img src="assets/wakatime.svg?v=mtkp10zz" width="100%" alt="Where my last 7 days of coding went" />
 </picture>
 
 <h2>in flow state</h2>
