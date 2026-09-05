@@ -3,9 +3,9 @@
 
   <defs>
     <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#eedccb"/>
-      <stop offset="0.55" stop-color="#f2e4d1"/>
-      <stop offset="1" stop-color="#f7eee0"/>
+      <stop offset="0" stop-color="#ece2cb"/>
+      <stop offset="0.55" stop-color="#f4e9cf"/>
+      <stop offset="1" stop-color="#f6efe0"/>
     </linearGradient>
     <!-- light-only -->
     <linearGradient id="shine" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="600" y2="0" spreadMethod="repeat">
@@ -345,6 +345,6 @@
   <!-- card border -->
   <rect x="0.75" y="0.75" width="1198.5" height="328.5" rx="16" fill="none" stroke="#c9bc9c" stroke-width="1.5"/>
 <g font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12" font-weight="600" letter-spacing="1.5">
-    <text x="1164" y="46" text-anchor="end" fill="#7a7460">07:33 · up before the sun</text>
+    <text x="1164" y="46" text-anchor="end" fill="#7a7460">12:43 · heads down</text>
   </g>
 </svg>
