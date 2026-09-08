@@ -2,8 +2,8 @@
 
 <!-- hero — repainted through the day by .github/workflows/profile.yml -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-now-dark.svg?v=mtscsi9f">
-  <img src="assets/hero-now.svg?v=mtscsi9f" width="100%" alt="Rakshit Hooda — full-stack developer, jack of too many trades, coding at night with headphones on" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-now-dark.svg?v=mtsoujyd">
+  <img src="assets/hero-now.svg?v=mtsoujyd" width="100%" alt="Rakshit Hooda — full-stack developer, jack of too many trades, coding at night with headphones on" />
 </picture>
 
 <br /><br />
@@ -11,15 +11,15 @@
 <!-- drawn from my real contribution data. Pinned via the ANIM repository
      variable; clear that variable and it rotates through all seven daily. -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/anim/today-dark.svg?v=mtscsi9f">
-  <img src="assets/anim/today.svg?v=mtscsi9f" width="100%" alt="Today's contribution animation" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/anim/today-dark.svg?v=mtsoujyd">
+  <img src="assets/anim/today.svg?v=mtsoujyd" width="100%" alt="Today's contribution animation" />
 </picture>
 
 <br /><br />
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/streak-dark.svg?v=mtscsi9f">
-  <img src="assets/streak.svg?v=mtscsi9f" width="100%" alt="The last 12 months as one bar per day, with the current and longest streaks" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/streak-dark.svg?v=mtsoujyd">
+  <img src="assets/streak.svg?v=mtsoujyd" width="100%" alt="The last 12 months as one bar per day, with the current and longest streaks" />
 </picture>
 
 <br /><br />
@@ -57,7 +57,7 @@
 ## currently building
 
 <!-- building:start -->
-- **[VectorFlow](https://github.com/rkhooda/VectorFlow)** `Python` — docs(data-pipeline): document the builder and runtime feature parity · _3d ago_
+- **[VectorFlow](https://github.com/rkhooda/VectorFlow)** `Python` — chore(forecasting): fix demo import path and dedupe module requirements · _5h ago_
 - **[TraceFall](https://github.com/rkhooda/TraceFall)** `Python` — docs: state that no ML ships · _2d ago_
 - **[Portfolio](https://github.com/rkhooda/Portfolio)** `JavaScript` — feat(work): designed Developer Brain cover · _3d ago_
 - **[FlowPane](https://github.com/rkhooda/FlowPane)** `JavaScript` — Add video creation summary and ignore video source files · _16d ago_
@@ -69,8 +69,8 @@
 <h2>last 7 days</h2>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/wakatime-dark.svg?v=mtscsi9f">
-  <img src="assets/wakatime.svg?v=mtscsi9f" width="100%" alt="Where my last 7 days of coding went" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/wakatime-dark.svg?v=mtsoujyd">
+  <img src="assets/wakatime.svg?v=mtsoujyd" width="100%" alt="Where my last 7 days of coding went" />
 </picture>
 
 <h2>in flow state</h2>
