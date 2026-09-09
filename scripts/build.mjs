@@ -104,7 +104,8 @@ async function fetchWaka(key) {
   const res = await fetch('https://wakatime.com/api/v1/users/current/stats/last_7_days', {
     headers: { Authorization: `Basic ${Buffer.from(key).toString('base64')}` },
   });
-  if (!res.ok) throw new Error(`wakatime ${res.status}`);
+  // The body names the reason (no key, no data yet, bad range); the status alone does not.
+  if (!res.ok) throw new Error(`wakatime ${res.status}: ${(await res.text()).slice(0, 200)}`);
   return (await res.json()).data;
 }
 
