@@ -13,9 +13,11 @@ const RAIL = 56;
 const TOP = 70;
 // Week c completes N0 + c swings per cycle, one more than its neighbour: that
 // integer spacing is what makes the columns drift apart and re-align, and it
-// means every column is back at rest at CYCLE / 2 and CYCLE.
-export const CYCLE = 60;
-const N0 = 44;
+// means every column is back at rest at CYCLE / 2 and CYCLE. Periods run from
+// CYCLE / N0 (first week) down to CYCLE / (N0 + 52): slow enough to read as a
+// lazy swing, close enough that the wave takes a full minute to dissolve.
+export const CYCLE = 120;
+const N0 = 56;
 // Swing amplitude in degrees. Quiet weeks hang still. The spread is kept
 // narrow: neighbours 3° apart stay parallel while in phase, a wider spread
 // makes a busy week cross its quiet neighbour and tangles the wave.
