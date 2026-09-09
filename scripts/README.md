@@ -4,16 +4,11 @@ Plain Node, no dependencies. Everything is generated from the GitHub API and
 committed back to this repo, so the README never depends on a third-party
 service staying up.
 
-## Setup
-
-Optional: add a `WAKATIME_API_KEY` repository secret to fill in the "last 7
-days" card. Without it that card shows a placeholder instead of breaking.
-
 ## Workflows
 
 | Workflow      | Trigger                        | What it does                                                          |
 | ------------- | ------------------------------ | --------------------------------------------------------------------- |
-| `profile.yml` | every 3h, push to `scripts/**` | today's animation, hero palette, currently building, WakaTime, streak |
+| `profile.yml` | every 3h, push to `scripts/**` | today's animation, hero palette, currently building, streak |
 | `3d-contrib.yml` | daily                       | the contribution skyline                                              |
 
 ## Local

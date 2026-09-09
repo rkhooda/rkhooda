@@ -66,13 +66,6 @@
 
 <div align="center">
 
-<h2>last 7 days</h2>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/wakatime-dark.svg?v=mtu9qvrd">
-  <img src="assets/wakatime.svg?v=mtu9qvrd" width="100%" alt="Where my last 7 days of coding went" />
-</picture>
-
 <h2>in flow state</h2>
 
 <img src="https://spotify-recently-played-readme.vercel.app/api?user=31mjuhgfdbzkwj2qshbpvifdsznq&width=400&count=1" alt="the song I last played on Spotify" width="400" />

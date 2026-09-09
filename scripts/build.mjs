@@ -1,10 +1,10 @@
 // Regenerates everything that changes on its own: today's animation, the
-// time-of-day hero, the "currently building" list and the WakaTime card.
+// time-of-day hero, the "currently building" list and the streak card.
 import { mkdirSync, readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { fetchProfile, relativeTime } from './lib/gh.mjs';
 import { dark } from './lib/theme.mjs';
 import { readReadme, writeReadme, updateSection, bustCache } from './lib/readme.mjs';
-import { card, caption, esc, round, FONT, MUTED, DIM, FG, CYAN, BLUE, PURPLE, GREEN, YELLOW, RED, WIDTH } from './lib/svg.mjs';
+import { FONT, MUTED } from './lib/svg.mjs';
 
 import streakCard from './cards/streak.mjs';
 
@@ -96,61 +96,6 @@ function buildingSection(profile) {
   return rows.length ? rows.join('\n') : '_nothing pushed publicly yet._';
 }
 
-// ------------------------------------------------------------------- wakatime
-
-const WAKA_COLORS = [CYAN, PURPLE, BLUE, GREEN, YELLOW, RED];
-
-async function fetchWaka(key) {
-  const res = await fetch('https://wakatime.com/api/v1/users/current/stats/last_7_days', {
-    headers: { Authorization: `Basic ${Buffer.from(key).toString('base64')}` },
-  });
-  // The body names the reason (no key, no data yet, bad range); the status alone does not.
-  if (!res.ok) throw new Error(`wakatime ${res.status}: ${(await res.text()).slice(0, 200)}`);
-  return (await res.json()).data;
-}
-
-function wakaCard(data) {
-  const H = 60 + 6 * 32 + 34;
-  if (!data || !data.languages?.length) {
-    return card({
-      height: 150,
-      title: 'WakaTime is still warming up',
-      label: 'WakaTime coding stats are not available yet',
-      body: `<text x="24" y="30" font-family="${FONT}" font-size="13" font-weight="700" fill="${CYAN}" letter-spacing="2">LAST 7 DAYS</text>
-  <text x="${WIDTH / 2}" y="82" text-anchor="middle" font-family="${FONT}" font-size="16" fill="${FG}">still warming up — WakaTime starts counting once the editor plugin is installed</text>
-  ${caption('THIS CARD FILLS IN ON ITS OWN', 150)}`,
-    });
-  }
-
-  const langs = data.languages.filter((l) => l.percent > 0).slice(0, 6);
-  const maxPct = Math.max(...langs.map((l) => l.percent));
-  const barX = 190;
-  const barW = WIDTH - barX - 150;
-
-  const rows = langs
-    .map((l, i) => {
-      const y = 62 + i * 32;
-      const w = round((l.percent / maxPct) * barW);
-      return `<text x="24" y="${y + 13}" font-family="${FONT}" font-size="14" font-weight="600" fill="${FG}">${esc(l.name)}</text>
-    <rect x="${barX}" y="${y}" width="${barW}" height="18" rx="9" fill="${DIM}" fill-opacity="0.3"/>
-    <rect x="${barX}" y="${y}" width="${w}" height="18" rx="9" fill="${WAKA_COLORS[i % WAKA_COLORS.length]}">
-      <animate attributeName="width" values="0;${w}" dur="0.9s" begin="${round(i * 0.1)}s" fill="freeze" calcMode="spline" keySplines="0.2 0 0 1" keyTimes="0;1"/>
-    </rect>
-    <text x="${WIDTH - 24}" y="${y + 13}" text-anchor="end" font-family="${FONT}" font-size="13" font-weight="600" fill="${MUTED}">${esc(l.text)}</text>`;
-    })
-    .join('');
-
-  return card({
-    height: H,
-    title: `Where my last 7 days of coding went — ${data.human_readable_total}`,
-    label: `WakaTime breakdown of the last 7 days: ${langs.map((l) => `${l.name} ${l.text}`).join(', ')}`,
-    body: `<text x="24" y="30" font-family="${FONT}" font-size="13" font-weight="700" fill="${CYAN}" letter-spacing="2">LAST 7 DAYS</text>
-  <text x="${WIDTH - 24}" y="30" text-anchor="end" font-family="${FONT}" font-size="13" font-weight="600" fill="${MUTED}" letter-spacing="1">${esc(data.human_readable_total ?? '')} TRACKED</text>
-  ${rows}
-  ${caption('MEASURED BY WAKATIME, NOT BY VIBES', H)}`,
-  });
-}
-
 // ----------------------------------------------------------------------- main
 
 if (!TOKEN) throw new Error('GITHUB_TOKEN is required');
@@ -169,22 +114,13 @@ writePair('anim/today', anim.default(profile));
 
 const phase = writeHero();
 
-let waka = null;
-if (process.env.WAKATIME_API_KEY) {
-  try {
-    waka = await fetchWaka(process.env.WAKATIME_API_KEY);
-  } catch (err) {
-    console.warn(`wakatime: ${err.message} — writing the placeholder card`);
-  }
-}
-writePair('wakatime', wakaCard(waka));
 writePair('streak', streakCard(profile));
 
 let md = readReadme();
 md = updateSection(md, 'building', buildingSection(profile));
-md = bustCache(md, ['anim/today', 'hero-now', 'wakatime', 'streak'].flatMap((n) => [`assets/${n}.svg`, `assets/${n}-dark.svg`]));
+md = bustCache(md, ['anim/today', 'hero-now', 'streak'].flatMap((n) => [`assets/${n}.svg`, `assets/${n}-dark.svg`]));
 writeReadme(md);
 
 console.log(
-  `animation=${anim.id} hero=${phase?.name ?? 'skipped'} waka=${waka ? 'live' : 'placeholder'} contributions=${profile.total}`
+  `animation=${anim.id} hero=${phase?.name ?? 'skipped'} contributions=${profile.total}`
 );
