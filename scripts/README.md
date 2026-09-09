@@ -23,8 +23,8 @@ node scripts/test.mjs                              # rules, bot, scaling, README
 ANIM=plane GITHUB_TOKEN=$(gh auth token) node scripts/build.mjs   # force one animation
 ```
 
-`ANIM` accepts `waveform`, `plane`, `ekg`, `runner`, `tetris`, `weather` or
-`terminal`. Without it the animation is picked from the day of the year.
+`ANIM` accepts `waveform`, `plane`, `ekg`, `runner`, `tetris`, `weather`,
+`terminal` or `pendulum`. Without it the animation is picked from the day of the year.
 
 ## Notes
 

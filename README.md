@@ -9,7 +9,7 @@
 <br /><br />
 
 <!-- drawn from my real contribution data. Pinned via the ANIM repository
-     variable; clear that variable and it rotates through all seven daily. -->
+     variable; clear that variable and it rotates through all eight daily. -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/anim/today-dark.svg?v=mtu4ftpr">
   <img src="assets/anim/today.svg?v=mtu4ftpr" width="100%" alt="Today's contribution animation" />
