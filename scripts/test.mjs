@@ -4,6 +4,7 @@ import * as svg from './lib/svg.mjs';
 import { DARK, dark } from './lib/theme.mjs';
 const { scale, noise } = svg;
 import { updateSection, bustCache } from './lib/readme.mjs';
+import pendulum, { CYCLE } from './anim/pendulum.mjs';
 
 // --- scale ------------------------------------------------------------------
 {
@@ -50,6 +51,21 @@ import { updateSection, bustCache } from './lib/readme.mjs';
   }
   assert.equal(dark(`<rect fill="${svg.BG}"/>`), `<rect fill="${DARK[svg.BG]}"/>`, 'dark() swaps a token');
   assert.equal(dark('<rect fill="#b78e6c"/>'), '<rect fill="#b78e6c"/>', 'unknown colours pass through');
+}
+
+// --- pendulum ---------------------------------------------------------------
+{
+  // The wave only re-forms if every column swings a whole number of times per
+  // cycle, and only active weeks may move at all.
+  const week = (count) => Array.from({ length: 7 }, () => ({ count, level: count ? 2 : 0 }));
+  const out = pendulum({ weeks: [week(0), week(4), week(40)], total: 308 });
+  const swings = [...out.matchAll(/values="0 [\d.]+ [\d.]+;(-?[\d.]+) [^"]*" [^>]*dur="([\d.]+)s"/g)];
+  assert.equal(swings.length, 2, 'only active weeks swing');
+  for (const [, , dur] of swings) {
+    const n = CYCLE / Number(dur);
+    assert.ok(Math.abs(n - Math.round(n)) < 1e-3, `${dur}s does not divide the cycle, got ${n} swings`);
+  }
+  assert.ok(Number(swings[1][1]) > Number(swings[0][1]), 'the busier week swings wider');
 }
 
 console.log('all checks passed');

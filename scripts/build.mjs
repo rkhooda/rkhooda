@@ -16,6 +16,7 @@ import * as runner from './anim/runner.mjs';
 import * as tetris from './anim/tetris.mjs';
 import * as weather from './anim/weather.mjs';
 import * as terminal from './anim/terminal.mjs';
+import * as pendulum from './anim/pendulum.mjs';
 
 const ROOT = new URL('../', import.meta.url).pathname;
 const LOGIN = process.env.PROFILE_USER || 'rkhooda';
@@ -23,7 +24,7 @@ const TOKEN = process.env.GITHUB_TOKEN;
 const TZ = process.env.PROFILE_TZ || 'Asia/Kolkata';
 
 // One slot on the README, a different animation every day.
-const ROTATION = [waveform, plane, ekg, runner, tetris, weather, terminal];
+const ROTATION = [waveform, plane, ekg, runner, tetris, weather, terminal, pendulum];
 
 function todaysAnimation() {
   if (process.env.ANIM) {
