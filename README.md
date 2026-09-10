@@ -2,8 +2,8 @@
 
 <!-- hero — repainted through the day by .github/workflows/profile.yml -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-now-dark.svg?v=mtvtyejc">
-  <img src="assets/hero-now.svg?v=mtvtyejc" width="100%" alt="Rakshit Hooda — full-stack developer, jack of too many trades, coding at night with headphones on" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-now-dark.svg?v=mtvz6x56">
+  <img src="assets/hero-now.svg?v=mtvz6x56" width="100%" alt="Rakshit Hooda — full-stack developer, jack of too many trades, coding at night with headphones on" />
 </picture>
 
 <br /><br />
@@ -11,15 +11,15 @@
 <!-- drawn from my real contribution data. Pinned via the ANIM repository
      variable; clear that variable and it rotates through all eight daily. -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/anim/today-dark.svg?v=mtvtyejc">
-  <img src="assets/anim/today.svg?v=mtvtyejc" width="100%" alt="Today's contribution animation" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/anim/today-dark.svg?v=mtvz6x56">
+  <img src="assets/anim/today.svg?v=mtvz6x56" width="100%" alt="Today's contribution animation" />
 </picture>
 
 <br /><br />
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/streak-dark.svg?v=mtvtyejc">
-  <img src="assets/streak.svg?v=mtvtyejc" width="100%" alt="The last 12 months as one bar per day, with the current and longest streaks" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/streak-dark.svg?v=mtvz6x56">
+  <img src="assets/streak.svg?v=mtvz6x56" width="100%" alt="The last 12 months as one bar per day, with the current and longest streaks" />
 </picture>
 
 <br /><br />
@@ -57,11 +57,11 @@
 ## currently building
 
 <!-- building:start -->
+- **[Portfolio](https://github.com/rkhooda/Portfolio)** `JavaScript` — fix(work): fit the gallery to one screen · _14m ago_
+- **[Clixo](https://github.com/rkhooda/Clixo)** `TypeScript` — perf(api): count submissions instead of fetching them · _41m ago_
+- **[VectorFlow](https://github.com/rkhooda/VectorFlow)** `Python` — feat(dashboard): sweep a highlight through the ASCII plots · _10h ago_
 - **[CredVault](https://github.com/rkhooda/CredVault)** `Solidity` — docs: how to authorise another issuer wallet · _1d ago_
 - **[DSA](https://github.com/rkhooda/DSA)** `C++` — Time: 0 ms (100.00%)  Memory: 95.1 MB (60.97%) - LeetSync · _1d ago_
-- **[TraceFall](https://github.com/rkhooda/TraceFall)** `Python` — docs: record the window change, the new endpoints and the demo-rot gu… · _1d ago_
-- **[VectorFlow](https://github.com/rkhooda/VectorFlow)** `Python` — chore: ignore generated dataset readmes and wheel cache, add pipeline… · _1d ago_
-- **[music-app](https://github.com/rkhooda/music-app)** `TypeScript` — chore(android): drop the RECORD_AUDIO permission · _2d ago_
 <!-- building:end -->
 
 <div align="center">
