@@ -2,8 +2,8 @@
 
 <!-- hero — repainted through the day by .github/workflows/profile.yml -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-now-dark.svg?v=mtuoysrn">
-  <img src="assets/hero-now.svg?v=mtuoysrn" width="100%" alt="Rakshit Hooda — full-stack developer, jack of too many trades, coding at night with headphones on" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-now-dark.svg?v=mtuw1yps">
+  <img src="assets/hero-now.svg?v=mtuw1yps" width="100%" alt="Rakshit Hooda — full-stack developer, jack of too many trades, coding at night with headphones on" />
 </picture>
 
 <br /><br />
@@ -11,15 +11,15 @@
 <!-- drawn from my real contribution data. Pinned via the ANIM repository
      variable; clear that variable and it rotates through all eight daily. -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/anim/today-dark.svg?v=mtuoysrn">
-  <img src="assets/anim/today.svg?v=mtuoysrn" width="100%" alt="Today's contribution animation" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/anim/today-dark.svg?v=mtuw1yps">
+  <img src="assets/anim/today.svg?v=mtuw1yps" width="100%" alt="Today's contribution animation" />
 </picture>
 
 <br /><br />
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/streak-dark.svg?v=mtuoysrn">
-  <img src="assets/streak.svg?v=mtuoysrn" width="100%" alt="The last 12 months as one bar per day, with the current and longest streaks" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/streak-dark.svg?v=mtuw1yps">
+  <img src="assets/streak.svg?v=mtuw1yps" width="100%" alt="The last 12 months as one bar per day, with the current and longest streaks" />
 </picture>
 
 <br /><br />
@@ -57,8 +57,8 @@
 ## currently building
 
 <!-- building:start -->
-- **[CredVault](https://github.com/rkhooda/CredVault)** `Solidity` — docs: how to authorise another issuer wallet · _7h ago_
-- **[DSA](https://github.com/rkhooda/DSA)** `C++` — Time: 0 ms (100.00%)  Memory: 95.1 MB (60.97%) - LeetSync · _16h ago_
+- **[CredVault](https://github.com/rkhooda/CredVault)** `Solidity` — docs: how to authorise another issuer wallet · _10h ago_
+- **[DSA](https://github.com/rkhooda/DSA)** `C++` — Time: 0 ms (100.00%)  Memory: 95.1 MB (60.97%) - LeetSync · _19h ago_
 - **[TraceFall](https://github.com/rkhooda/TraceFall)** `Python` — docs: record the window change, the new endpoints and the demo-rot gu… · _1d ago_
 - **[VectorFlow](https://github.com/rkhooda/VectorFlow)** `Python` — chore: ignore generated dataset readmes and wheel cache, add pipeline… · _1d ago_
 - **[music-app](https://github.com/rkhooda/music-app)** `TypeScript` — chore(android): drop the RECORD_AUDIO permission · _1d ago_
