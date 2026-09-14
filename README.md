@@ -2,8 +2,8 @@
 
 <!-- hero — repainted through the day by .github/workflows/profile.yml -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-now-dark.svg?v=mu0ehuhr">
-  <img src="assets/hero-now.svg?v=mu0ehuhr" width="100%" alt="Rakshit Hooda — full-stack developer, jack of too many trades, coding at night with headphones on" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-now-dark.svg?v=mu0mflvg">
+  <img src="assets/hero-now.svg?v=mu0mflvg" width="100%" alt="Rakshit Hooda — full-stack developer, jack of too many trades, coding at night with headphones on" />
 </picture>
 
 <br /><br />
@@ -11,15 +11,15 @@
 <!-- drawn from my real contribution data. Pinned via the ANIM repository
      variable; clear that variable and it rotates through all eight daily. -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/anim/today-dark.svg?v=mu0ehuhr">
-  <img src="assets/anim/today.svg?v=mu0ehuhr" width="100%" alt="Today's contribution animation" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/anim/today-dark.svg?v=mu0mflvg">
+  <img src="assets/anim/today.svg?v=mu0mflvg" width="100%" alt="Today's contribution animation" />
 </picture>
 
 <br /><br />
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/streak-dark.svg?v=mu0ehuhr">
-  <img src="assets/streak.svg?v=mu0ehuhr" width="100%" alt="The last 12 months as one bar per day, with the current and longest streaks" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/streak-dark.svg?v=mu0mflvg">
+  <img src="assets/streak.svg?v=mu0mflvg" width="100%" alt="The last 12 months as one bar per day, with the current and longest streaks" />
 </picture>
 
 <br /><br />
@@ -57,7 +57,7 @@
 ## currently building
 
 <!-- building:start -->
-- **[VectorFlow](https://github.com/rkhooda/VectorFlow)** `Python` — Merge pull request #2 from Saksham-official/feature/benchmark-engine · _12h ago_
+- **[VectorFlow](https://github.com/rkhooda/VectorFlow)** `Python` — Merge pull request #2 from Saksham-official/feature/benchmark-engine · _16h ago_
 - **[TraceFall](https://github.com/rkhooda/TraceFall)** `Python` — add case deletion option in dashboard and case detail page · _1d ago_
 - **[Portfolio](https://github.com/rkhooda/Portfolio)** `JavaScript` — fix(work): fit the gallery to one screen · _3d ago_
 - **[Clixo](https://github.com/rkhooda/Clixo)** `TypeScript` — perf(api): count submissions instead of fetching them · _3d ago_
