@@ -2,8 +2,8 @@
 
 <!-- hero — repainted through the day by .github/workflows/profile.yml -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-now-dark.svg?v=mu45v27i">
-  <img src="assets/hero-now.svg?v=mu45v27i" width="100%" alt="Rakshit Hooda — full-stack developer, jack of too many trades, coding at night with headphones on" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-now-dark.svg?v=mu4fv7yu">
+  <img src="assets/hero-now.svg?v=mu4fv7yu" width="100%" alt="Rakshit Hooda — full-stack developer, jack of too many trades, coding at night with headphones on" />
 </picture>
 
 <br /><br />
@@ -11,15 +11,15 @@
 <!-- drawn from my real contribution data. Pinned via the ANIM repository
      variable; clear that variable and it rotates through all eight daily. -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/anim/today-dark.svg?v=mu45v27i">
-  <img src="assets/anim/today.svg?v=mu45v27i" width="100%" alt="Today's contribution animation" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/anim/today-dark.svg?v=mu4fv7yu">
+  <img src="assets/anim/today.svg?v=mu4fv7yu" width="100%" alt="Today's contribution animation" />
 </picture>
 
 <br /><br />
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/streak-dark.svg?v=mu45v27i">
-  <img src="assets/streak.svg?v=mu45v27i" width="100%" alt="The last 12 months as one bar per day, with the current and longest streaks" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/streak-dark.svg?v=mu4fv7yu">
+  <img src="assets/streak.svg?v=mu4fv7yu" width="100%" alt="The last 12 months as one bar per day, with the current and longest streaks" />
 </picture>
 
 <br /><br />
@@ -57,10 +57,10 @@
 ## currently building
 
 <!-- building:start -->
-- **[TraceFall](https://github.com/rkhooda/TraceFall)** `Python` — update Vite proxy configuration to support dynamic API target · _20h ago_
+- **[TraceFall](https://github.com/rkhooda/TraceFall)** `Python` — fix: resolve CI authorization and mode tests · _1h ago_
 - **[Portfolio](https://github.com/rkhooda/Portfolio)** `JavaScript` — fix(work): fit the gallery to one screen · _5d ago_
 - **[Clixo](https://github.com/rkhooda/Clixo)** `TypeScript` — perf(api): count submissions instead of fetching them · _5d ago_
-- **[CredVault](https://github.com/rkhooda/CredVault)** `Solidity` — docs: how to authorise another issuer wallet · _6d ago_
+- **[CredVault](https://github.com/rkhooda/CredVault)** `Solidity` — docs: how to authorise another issuer wallet · _7d ago_
 - **[DSA](https://github.com/rkhooda/DSA)** `C++` — Time: 0 ms (100.00%)  Memory: 95.1 MB (60.97%) - LeetSync · _7d ago_
 <!-- building:end -->
 
