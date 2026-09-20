@@ -2,8 +2,8 @@
 
 <!-- hero — repainted through the day by .github/workflows/profile.yml -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-now-dark.svg?v=mu8ysob7">
-  <img src="assets/hero-now.svg?v=mu8ysob7" width="100%" alt="Rakshit Hooda — full-stack developer, jack of too many trades, coding at night with headphones on" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-now-dark.svg?v=mu972d8v">
+  <img src="assets/hero-now.svg?v=mu972d8v" width="100%" alt="Rakshit Hooda — full-stack developer, jack of too many trades, coding at night with headphones on" />
 </picture>
 
 <br /><br />
@@ -11,15 +11,15 @@
 <!-- drawn from my real contribution data. Pinned via the ANIM repository
      variable; clear that variable and it rotates through all eight daily. -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/anim/today-dark.svg?v=mu8ysob7">
-  <img src="assets/anim/today.svg?v=mu8ysob7" width="100%" alt="Today's contribution animation" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/anim/today-dark.svg?v=mu972d8v">
+  <img src="assets/anim/today.svg?v=mu972d8v" width="100%" alt="Today's contribution animation" />
 </picture>
 
 <br /><br />
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/streak-dark.svg?v=mu8ysob7">
-  <img src="assets/streak.svg?v=mu8ysob7" width="100%" alt="The last 12 months as one bar per day, with the current and longest streaks" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/streak-dark.svg?v=mu972d8v">
+  <img src="assets/streak.svg?v=mu972d8v" width="100%" alt="The last 12 months as one bar per day, with the current and longest streaks" />
 </picture>
 
 <br /><br />
@@ -57,7 +57,7 @@
 ## currently building
 
 <!-- building:start -->
-- **[music-app](https://github.com/rkhooda/music-app)** `TypeScript` — feat: add curated Spotify-style home feed tailored to favorite artist… · _5h ago_
+- **[music-app](https://github.com/rkhooda/music-app)** `TypeScript` — feat: add curated Spotify-style home feed tailored to favorite artist… · _9h ago_
 - **[TraceFall](https://github.com/rkhooda/TraceFall)** `Python` — Refine cross-case address notice · _1d ago_
 - **[Portfolio](https://github.com/rkhooda/Portfolio)** `JavaScript` — fix(work): fit the gallery to one screen · _9d ago_
 - **[Clixo](https://github.com/rkhooda/Clixo)** `TypeScript` — perf(api): count submissions instead of fetching them · _9d ago_
