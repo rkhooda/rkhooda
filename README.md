@@ -2,8 +2,8 @@
 
 <!-- hero — repainted through the day by .github/workflows/profile.yml -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-now-dark.svg?v=mumxvm4b">
-  <img src="assets/hero-now.svg?v=mumxvm4b" width="100%" alt="Rakshit Hooda — full-stack developer, jack of too many trades, coding at night with headphones on" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-now-dark.svg?v=mun78wet">
+  <img src="assets/hero-now.svg?v=mun78wet" width="100%" alt="Rakshit Hooda — full-stack developer, jack of too many trades, coding at night with headphones on" />
 </picture>
 
 <br /><br />
@@ -11,15 +11,15 @@
 <!-- drawn from my real contribution data. Pinned via the ANIM repository
      variable; clear that variable and it rotates through all eight daily. -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/anim/today-dark.svg?v=mumxvm4b">
-  <img src="assets/anim/today.svg?v=mumxvm4b" width="100%" alt="Today's contribution animation" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/anim/today-dark.svg?v=mun78wet">
+  <img src="assets/anim/today.svg?v=mun78wet" width="100%" alt="Today's contribution animation" />
 </picture>
 
 <br /><br />
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/streak-dark.svg?v=mumxvm4b">
-  <img src="assets/streak.svg?v=mumxvm4b" width="100%" alt="The last 12 months as one bar per day, with the current and longest streaks" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/streak-dark.svg?v=mun78wet">
+  <img src="assets/streak.svg?v=mun78wet" width="100%" alt="The last 12 months as one bar per day, with the current and longest streaks" />
 </picture>
 
 <br /><br />
@@ -57,7 +57,7 @@
 ## currently building
 
 <!-- building:start -->
-- **[Credence](https://github.com/rkhooda/Credence)** `Solidity` — docs: update README with yt link · _1d ago_
+- **[Credence](https://github.com/rkhooda/Credence)** `Solidity` — docs: update README with yt link · _2d ago_
 - **[DSA](https://github.com/rkhooda/DSA)** `C++` — Time: 0 ms (100.00%)  Memory: 7.8 MB (21.49%) - LeetSync · _6d ago_
 - **[music-app](https://github.com/rkhooda/music-app)** `TypeScript` — fix(android): permit cleartext HTTP traffic to all IP addresses via N… · _8d ago_
 - **[TraceFall](https://github.com/rkhooda/TraceFall)** `Python` — Refine cross-case address notice · _11d ago_
