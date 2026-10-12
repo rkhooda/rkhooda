@@ -2,8 +2,8 @@
 
 <!-- hero — repainted through the day by .github/workflows/profile.yml -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-now-dark.svg?v=mv5bcwx7">
-  <img src="assets/hero-now.svg?v=mv5bcwx7" width="100%" alt="Rakshit Hooda — full-stack developer, jack of too many trades, coding at night with headphones on" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-now-dark.svg?v=mv5tdpyp">
+  <img src="assets/hero-now.svg?v=mv5tdpyp" width="100%" alt="Rakshit Hooda — full-stack developer, jack of too many trades, coding at night with headphones on" />
 </picture>
 
 <br /><br />
@@ -11,15 +11,15 @@
 <!-- drawn from my real contribution data. Pinned via the ANIM repository
      variable; clear that variable and it rotates through all eight daily. -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/anim/today-dark.svg?v=mv5bcwx7">
-  <img src="assets/anim/today.svg?v=mv5bcwx7" width="100%" alt="Today's contribution animation" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/anim/today-dark.svg?v=mv5tdpyp">
+  <img src="assets/anim/today.svg?v=mv5tdpyp" width="100%" alt="Today's contribution animation" />
 </picture>
 
 <br /><br />
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/streak-dark.svg?v=mv5bcwx7">
-  <img src="assets/streak.svg?v=mv5bcwx7" width="100%" alt="The last 12 months as one bar per day, with the current and longest streaks" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/streak-dark.svg?v=mv5tdpyp">
+  <img src="assets/streak.svg?v=mv5tdpyp" width="100%" alt="The last 12 months as one bar per day, with the current and longest streaks" />
 </picture>
 
 <br /><br />
@@ -57,11 +57,11 @@
 ## currently building
 
 <!-- building:start -->
-- **[Portfolio](https://github.com/rkhooda/Portfolio)** `JavaScript` — feat: add interactive speech bubble popups on cat click · _2d ago_
-- **[Credence](https://github.com/rkhooda/Credence)** `Solidity` — docs: update README with yt link · _14d ago_
+- **[Portfolio](https://github.com/rkhooda/Portfolio)** `JavaScript` — feat(modal): redesign project modal to split layout with 3D logo and … · _7h ago_
+- **[Credence](https://github.com/rkhooda/Credence)** `Solidity` — docs: update README with yt link · _15d ago_
 - **[DSA](https://github.com/rkhooda/DSA)** `C++` — Time: 0 ms (100.00%)  Memory: 7.8 MB (21.49%) - LeetSync · _19d ago_
 - **[music-app](https://github.com/rkhooda/music-app)** `TypeScript` — fix(android): permit cleartext HTTP traffic to all IP addresses via N… · _21d ago_
-- **[TraceFall](https://github.com/rkhooda/TraceFall)** `Python` — Refine cross-case address notice · _23d ago_
+- **[TraceFall](https://github.com/rkhooda/TraceFall)** `Python` — Refine cross-case address notice · _24d ago_
 <!-- building:end -->
 
 <div align="center">
