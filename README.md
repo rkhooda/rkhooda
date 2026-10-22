@@ -2,8 +2,8 @@
 
 <!-- hero — repainted through the day by .github/workflows/profile.yml -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-now-dark.svg?v=mvixbq29">
-  <img src="assets/hero-now.svg?v=mvixbq29" width="100%" alt="Rakshit Hooda — full-stack developer, jack of too many trades, coding at night with headphones on" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-now-dark.svg?v=mvj9cib9">
+  <img src="assets/hero-now.svg?v=mvj9cib9" width="100%" alt="Rakshit Hooda — full-stack developer, jack of too many trades, coding at night with headphones on" />
 </picture>
 
 <br /><br />
@@ -11,15 +11,15 @@
 <!-- drawn from my real contribution data. Pinned via the ANIM repository
      variable; clear that variable and it rotates through all eight daily. -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/anim/today-dark.svg?v=mvixbq29">
-  <img src="assets/anim/today.svg?v=mvixbq29" width="100%" alt="Today's contribution animation" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/anim/today-dark.svg?v=mvj9cib9">
+  <img src="assets/anim/today.svg?v=mvj9cib9" width="100%" alt="Today's contribution animation" />
 </picture>
 
 <br /><br />
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/streak-dark.svg?v=mvixbq29">
-  <img src="assets/streak.svg?v=mvixbq29" width="100%" alt="The last 12 months as one bar per day, with the current and longest streaks" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/streak-dark.svg?v=mvj9cib9">
+  <img src="assets/streak.svg?v=mvj9cib9" width="100%" alt="The last 12 months as one bar per day, with the current and longest streaks" />
 </picture>
 
 <br /><br />
@@ -57,11 +57,11 @@
 ## currently building
 
 <!-- building:start -->
-- **[TraceFall](https://github.com/rkhooda/TraceFall)** `Python` — fix: make demo seed lookup stable and expose backend · _4d ago_
-- **[CredVault](https://github.com/rkhooda/CredVault)** `Solidity` — docs: add investor funding proposal · _4d ago_
+- **[TraceFall](https://github.com/rkhooda/TraceFall)** `Python` — fix: make demo seed lookup stable and expose backend · _5d ago_
+- **[CredVault](https://github.com/rkhooda/CredVault)** `Solidity` — docs: add investor funding proposal · _5d ago_
 - **[Portfolio](https://github.com/rkhooda/Portfolio)** `JavaScript` — simplify project modal motion · _7d ago_
 - **[Credence](https://github.com/rkhooda/Credence)** `Solidity` — docs: update README with yt link · _24d ago_
-- **[DSA](https://github.com/rkhooda/DSA)** `C++` — Time: 0 ms (100.00%)  Memory: 7.8 MB (21.49%) - LeetSync · _28d ago_
+- **[DSA](https://github.com/rkhooda/DSA)** `C++` — Time: 0 ms (100.00%)  Memory: 7.8 MB (21.49%) - LeetSync · _29d ago_
 <!-- building:end -->
 
 <div align="center">
