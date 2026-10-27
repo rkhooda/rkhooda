@@ -2,8 +2,8 @@
 
 <!-- hero — repainted through the day by .github/workflows/profile.yml -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-now-dark.svg?v=mvq3gex1">
-  <img src="assets/hero-now.svg?v=mvq3gex1" width="100%" alt="Rakshit Hooda — full-stack developer, jack of too many trades, coding at night with headphones on" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-now-dark.svg?v=mvqfil3p">
+  <img src="assets/hero-now.svg?v=mvqfil3p" width="100%" alt="Rakshit Hooda — full-stack developer, jack of too many trades, coding at night with headphones on" />
 </picture>
 
 <br /><br />
@@ -11,15 +11,15 @@
 <!-- drawn from my real contribution data. Pinned via the ANIM repository
      variable; clear that variable and it rotates through all eight daily. -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/anim/today-dark.svg?v=mvq3gex1">
-  <img src="assets/anim/today.svg?v=mvq3gex1" width="100%" alt="Today's contribution animation" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/anim/today-dark.svg?v=mvqfil3p">
+  <img src="assets/anim/today.svg?v=mvqfil3p" width="100%" alt="Today's contribution animation" />
 </picture>
 
 <br /><br />
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/streak-dark.svg?v=mvq3gex1">
-  <img src="assets/streak.svg?v=mvq3gex1" width="100%" alt="The last 12 months as one bar per day, with the current and longest streaks" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/streak-dark.svg?v=mvqfil3p">
+  <img src="assets/streak.svg?v=mvqfil3p" width="100%" alt="The last 12 months as one bar per day, with the current and longest streaks" />
 </picture>
 
 <br /><br />
@@ -57,9 +57,9 @@
 ## currently building
 
 <!-- building:start -->
-- **[Portfolio](https://github.com/rkhooda/Portfolio)** `JavaScript` — docs(projects): detail autonomous engineering workflows for Developer… · _1d ago_
-- **[TraceFall](https://github.com/rkhooda/TraceFall)** `Python` — fix: make demo seed lookup stable and expose backend · _9d ago_
-- **[CredVault](https://github.com/rkhooda/CredVault)** `Solidity` — docs: add investor funding proposal · _9d ago_
+- **[Portfolio](https://github.com/rkhooda/Portfolio)** `JavaScript` — docs(projects): detail autonomous engineering workflows for Developer… · _2d ago_
+- **[TraceFall](https://github.com/rkhooda/TraceFall)** `Python` — fix: make demo seed lookup stable and expose backend · _10d ago_
+- **[CredVault](https://github.com/rkhooda/CredVault)** `Solidity` — docs: add investor funding proposal · _10d ago_
 - **[Credence](https://github.com/rkhooda/Credence)** `Solidity` — docs: update README with yt link · _29d ago_
 - **[DSA](https://github.com/rkhooda/DSA)** `C++` — Time: 0 ms (100.00%)  Memory: 7.8 MB (21.49%) - LeetSync · _1mo ago_
 <!-- building:end -->
