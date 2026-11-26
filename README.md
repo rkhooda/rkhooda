@@ -2,8 +2,8 @@
 
 <!-- hero — repainted through the day by .github/workflows/profile.yml -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-now-dark.svg?v=mwxhfo0s">
-  <img src="assets/hero-now.svg?v=mwxhfo0s" width="100%" alt="Rakshit Hooda — full-stack developer, jack of too many trades, coding at night with headphones on" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-now-dark.svg?v=mwy0r6uu">
+  <img src="assets/hero-now.svg?v=mwy0r6uu" width="100%" alt="Rakshit Hooda — full-stack developer, jack of too many trades, coding at night with headphones on" />
 </picture>
 
 <br /><br />
@@ -11,15 +11,15 @@
 <!-- drawn from my real contribution data. Pinned via the ANIM repository
      variable; clear that variable and it rotates through all eight daily. -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/anim/today-dark.svg?v=mwxhfo0s">
-  <img src="assets/anim/today.svg?v=mwxhfo0s" width="100%" alt="Today's contribution animation" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/anim/today-dark.svg?v=mwy0r6uu">
+  <img src="assets/anim/today.svg?v=mwy0r6uu" width="100%" alt="Today's contribution animation" />
 </picture>
 
 <br /><br />
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/streak-dark.svg?v=mwxhfo0s">
-  <img src="assets/streak.svg?v=mwxhfo0s" width="100%" alt="The last 12 months as one bar per day, with the current and longest streaks" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/streak-dark.svg?v=mwy0r6uu">
+  <img src="assets/streak.svg?v=mwy0r6uu" width="100%" alt="The last 12 months as one bar per day, with the current and longest streaks" />
 </picture>
 
 <br /><br />
@@ -57,7 +57,7 @@
 ## currently building
 
 <!-- building:start -->
-- **[Portfolio2.O](https://github.com/rkhooda/Portfolio2.O)** `JavaScript` — feat: add inline ghost suggestion and right arrow completion in promp… · _5d ago_
+- **[Portfolio2.O](https://github.com/rkhooda/Portfolio2.O)** `JavaScript` — feat: add inline ghost suggestion and right arrow completion in promp… · _6d ago_
 - **[Portfolio](https://github.com/rkhooda/Portfolio)** `JavaScript` — docs(projects): detail autonomous engineering workflows for Developer… · _1mo ago_
 - **[TraceFall](https://github.com/rkhooda/TraceFall)** `Python` — fix: make demo seed lookup stable and expose backend · _1mo ago_
 - **[CredVault](https://github.com/rkhooda/CredVault)** `Solidity` — docs: add investor funding proposal · _1mo ago_
